@@ -14,6 +14,8 @@ namespace Pedido.Domain.Custumer.Entities
         public string Cpf { get; }
         public Name Nome { get; private set; }
 
+        protected Cliente() { }
+
 
         public Cliente(Guid id, string cpf, Name nome)
         {

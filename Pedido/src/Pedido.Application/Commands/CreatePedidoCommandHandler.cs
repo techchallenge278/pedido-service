@@ -1,9 +1,9 @@
-﻿using Pedido.Domain.Entities;
-using MediatR;
+﻿using MediatR;
+using Pedido.Application.Commands;
+using Pedido.Domain.Entities;
+using Pedido.Domain.Exceptions;
 using Pedido.Domain.Repositories;
 using Pedido.Domain.ValueObjects;
-using Pedido.Application.Common;
-using Pedido.Domain.Custumer.Entities;
 
 namespace Pedido.Application.Commands
 {
@@ -11,39 +11,48 @@ namespace Pedido.Application.Commands
     {
         private readonly IPedidoRepository _orderRepository;
 
-
-        public CreatePedidoCommandHandler(IPedidoRepository orderRepository){
+        public CreatePedidoCommandHandler(IPedidoRepository orderRepository)
+        {
             _orderRepository = orderRepository;
         }
+
         public async Task<CreatePedidoCommandResult> Handle(CreatePedidoCommand request, CancellationToken cancellationToken)
         {
-            // Criar os itens do pedido
-           // var pedidoItems = new List<PedidoItem>();
+            if (request.Items == null || !request.Items.Any())
+                throw new PedidoDomainException("O pedido deve ter pelo menos um item.");
 
             var pedidoItems = request.Items.Select(item =>
-               PedidoItem.Create(
-                   item.ProdutoId,
-                   item.ProdutoNome,
-                   item.UnitPrice,
-                   item.Quant
-               )
-           ).ToList();
+            {
+                // Validar produtoNome
+                var produtoNome = string.IsNullOrWhiteSpace(item.ProdutoNome)
+                    ? "Produto Anônimo"
+                    : item.ProdutoNome;
 
-            // Criar o pedido (pode ser anônimo)
-            var pedido = Domain.Entities.Pedido.Create(
+                // Validar preço unitário
+                if (item.UnitPrice <= 0)
+                    throw new PedidoDomainException($"O preço unitário do produto {produtoNome} deve ser maior que zero.");
+
+                return PedidoItem.Create(
+                    item.ProdutoId,
+                    produtoNome,
+                    item.UnitPrice,
+                    item.Quant
+                );
+            }).ToList();
+
+            // Criar pedido (ClienteId pode ser null)
+            var pedido = Pedido.Domain.Entities.Pedido.Create(
                 request.ClienteId,
                 pedidoItems
-            ); 
-   
-            // Persistir o pedido
+            );
+
             await _orderRepository.CreateAsync(pedido);
 
-            // Retornar o resultado
             return new CreatePedidoCommandResult
             {
                 Id = pedido.Id,
                 ClienteId = pedido.ClienteId,
-                ClienteName = request.ClienteNome, // Null para pedidos anônimos
+                ClienteName = request.ClienteNome,
                 Status = pedido.Status.ToString(),
                 TotalPrice = pedido.TotalPrice,
                 CreatedAt = pedido.CreatedAt,

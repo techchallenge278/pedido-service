@@ -1,1 +1,54 @@
+version: "3.8"
+
+services:
+  pedido.db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: pedido-sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "Pedido@2025"
+      MSSQL_PID: "Express"
+    ports:
+      - "1433:1433"
+    volumes:
+      - pedido-db-data:/var/opt/mssql
+    networks:
+      - pedido-network
+    healthcheck:
+      test: ["CMD", "/opt/mssql-tools18/bin/sqlcmd", "-S", "localhost", "-U", "sa", "-P", "Pedido@2025", "-Q", "SELECT 1", "-C", "-N"]
+      interval: 10s
+      retries: 10
+      timeout: 5s
+      start_period: 30s
+    restart: unless-stopped
+
+  pedido.api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: pedido-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__DefaultConnection: >
+        Server=pedido.db,1433;
+        Database=PedidoDb;
+        User Id=sa;
+        Password=Pedido@2025;
+        TrustServerCertificate=true;
+        MultipleActiveResultSets=true;
+    ports:
+      - "8080:8080"
+    depends_on:
+      pedido.db:
+        condition: service_healthy
+    networks:
+      - pedido-network
+    restart: unless-stopped
+
+networks:
+  pedido-network:
+    driver: bridge
+
+volumes:
+  pedido-db-data:
 

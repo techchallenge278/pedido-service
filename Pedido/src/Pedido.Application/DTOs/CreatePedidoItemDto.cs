@@ -13,6 +13,10 @@ namespace Pedido.Application.DTOs
         /// <example>e47ac10b-58cc-4372-a567-0e02b2c3d123</example>
         [Required(ErrorMessage = "O ID do produto é obrigatório")]
         public required Guid ProdutoId { get; set; }
+        public required string ProdutoNome { get; set; }
+        public decimal UnitPrice { get; set; }
+
+
 
         /// <summary>
         /// Quantidade desejada do produto (maior que zero)

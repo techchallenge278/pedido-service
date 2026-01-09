@@ -1,0 +1,186 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC1FF42D-EFFA-4564-A54F-182FC35BD129}|src\\Pedido.Domain\\Pedido.Domain.csproj|d:\\projetos\\techchallenge - fase 4\\microservico-pedido\\pedido\\src\\pedido.domain\\customer\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC1FF42D-EFFA-4564-A54F-182FC35BD129}|src\\Pedido.Domain\\Pedido.Domain.csproj|solutionrelative:src\\pedido.domain\\customer\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD41D8A-135A-4BE7-9B07-5DEDCC2ED0C6}|src\\Pedido.Api\\Pedido.Api.csproj|d:\\projetos\\techchallenge - fase 4\\microservico-pedido\\pedido\\src\\pedido.api\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD41D8A-135A-4BE7-9B07-5DEDCC2ED0C6}|src\\Pedido.Api\\Pedido.Api.csproj|solutionrelative:src\\pedido.api\\controllers\\pedidoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6083FD8-7B26-49D5-9752-13FDE2D7ABFB}|src\\Pedido.Application\\Pedido.Application.csproj|d:\\projetos\\techchallenge - fase 4\\microservico-pedido\\pedido\\src\\pedido.application\\commands\\createpedidocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6083FD8-7B26-49D5-9752-13FDE2D7ABFB}|src\\Pedido.Application\\Pedido.Application.csproj|solutionrelative:src\\pedido.application\\commands\\createpedidocommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6083FD8-7B26-49D5-9752-13FDE2D7ABFB}|src\\Pedido.Application\\Pedido.Application.csproj|d:\\projetos\\techchallenge - fase 4\\microservico-pedido\\pedido\\src\\pedido.application\\dtos\\createpedidoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6083FD8-7B26-49D5-9752-13FDE2D7ABFB}|src\\Pedido.Application\\Pedido.Application.csproj|solutionrelative:src\\pedido.application\\dtos\\createpedidoitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6083FD8-7B26-49D5-9752-13FDE2D7ABFB}|src\\Pedido.Application\\Pedido.Application.csproj|d:\\projetos\\techchallenge - fase 4\\microservico-pedido\\pedido\\src\\pedido.application\\dtos\\createpedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6083FD8-7B26-49D5-9752-13FDE2D7ABFB}|src\\Pedido.Application\\Pedido.Application.csproj|solutionrelative:src\\pedido.application\\dtos\\createpedidodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E6083FD8-7B26-49D5-9752-13FDE2D7ABFB}|src\\Pedido.Application\\Pedido.Application.csproj|d:\\projetos\\techchallenge - fase 4\\microservico-pedido\\pedido\\src\\pedido.application\\commands\\createpedidocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E6083FD8-7B26-49D5-9752-13FDE2D7ABFB}|src\\Pedido.Application\\Pedido.Application.csproj|solutionrelative:src\\pedido.application\\commands\\createpedidocommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD41D8A-135A-4BE7-9B07-5DEDCC2ED0C6}|src\\Pedido.Api\\Pedido.Api.csproj|d:\\projetos\\techchallenge - fase 4\\microservico-pedido\\pedido\\src\\pedido.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AFD41D8A-135A-4BE7-9B07-5DEDCC2ED0C6}|src\\Pedido.Api\\Pedido.Api.csproj|solutionrelative:src\\pedido.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{637B79C1-B6A2-425E-8589-D70FD3C79C3F}|src\\Pedido.Infrastructure\\Pedido.Infrastructure.csproj|d:\\projetos\\techchallenge - fase 4\\microservico-pedido\\pedido\\src\\pedido.infrastructure\\data\\pedidodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{637B79C1-B6A2-425E-8589-D70FD3C79C3F}|src\\Pedido.Infrastructure\\Pedido.Infrastructure.csproj|solutionrelative:src\\pedido.infrastructure\\data\\pedidodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD41D8A-135A-4BE7-9B07-5DEDCC2ED0C6}|src\\Pedido.Api\\Pedido.Api.csproj|d:\\projetos\\techchallenge - fase 4\\microservico-pedido\\pedido\\src\\pedido.api\\examples\\swagger\\pedidorequestexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD41D8A-135A-4BE7-9B07-5DEDCC2ED0C6}|src\\Pedido.Api\\Pedido.Api.csproj|solutionrelative:src\\pedido.api\\examples\\swagger\\pedidorequestexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFD41D8A-135A-4BE7-9B07-5DEDCC2ED0C6}|src\\Pedido.Api\\Pedido.Api.csproj|d:\\projetos\\techchallenge - fase 4\\microservico-pedido\\pedido\\src\\pedido.api\\models\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFD41D8A-135A-4BE7-9B07-5DEDCC2ED0C6}|src\\Pedido.Api\\Pedido.Api.csproj|solutionrelative:src\\pedido.api\\models\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Domain\\Customer\\Entities\\Cliente.cs",
+              "RelativeDocumentMoniker": "src\\Pedido.Domain\\Customer\\Entities\\Cliente.cs",
+              "ToolTip": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Domain\\Customer\\Entities\\Cliente.cs",
+              "RelativeToolTip": "src\\Pedido.Domain\\Customer\\Entities\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T03:47:20.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PedidosController.cs",
+              "DocumentMoniker": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Api\\Controllers\\PedidosController.cs",
+              "RelativeDocumentMoniker": "src\\Pedido.Api\\Controllers\\PedidosController.cs",
+              "ToolTip": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Api\\Controllers\\PedidosController.cs",
+              "RelativeToolTip": "src\\Pedido.Api\\Controllers\\PedidosController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T06:46:39.612Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreatePedidoCommandHandler.cs",
+              "DocumentMoniker": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Application\\Commands\\CreatePedidoCommandHandler.cs",
+              "RelativeDocumentMoniker": "src\\Pedido.Application\\Commands\\CreatePedidoCommandHandler.cs",
+              "ToolTip": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Application\\Commands\\CreatePedidoCommandHandler.cs",
+              "RelativeToolTip": "src\\Pedido.Application\\Commands\\CreatePedidoCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T02:19:48.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CreatePedidoItemDto.cs",
+              "DocumentMoniker": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Application\\DTOs\\CreatePedidoItemDto.cs",
+              "RelativeDocumentMoniker": "src\\Pedido.Application\\DTOs\\CreatePedidoItemDto.cs",
+              "ToolTip": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Application\\DTOs\\CreatePedidoItemDto.cs",
+              "RelativeToolTip": "src\\Pedido.Application\\DTOs\\CreatePedidoItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T02:18:50.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CreatePedidoDto.cs",
+              "DocumentMoniker": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Application\\DTOs\\CreatePedidoDto.cs",
+              "RelativeDocumentMoniker": "src\\Pedido.Application\\DTOs\\CreatePedidoDto.cs",
+              "ToolTip": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Application\\DTOs\\CreatePedidoDto.cs",
+              "RelativeToolTip": "src\\Pedido.Application\\DTOs\\CreatePedidoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T01:45:24.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreatePedidoCommand.cs",
+              "DocumentMoniker": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Application\\Commands\\CreatePedidoCommand.cs",
+              "RelativeDocumentMoniker": "src\\Pedido.Application\\Commands\\CreatePedidoCommand.cs",
+              "ToolTip": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Application\\Commands\\CreatePedidoCommand.cs",
+              "RelativeToolTip": "src\\Pedido.Application\\Commands\\CreatePedidoCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T02:27:45.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PedidoDbContext.cs",
+              "DocumentMoniker": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Infrastructure\\Data\\PedidoDbContext.cs",
+              "RelativeDocumentMoniker": "src\\Pedido.Infrastructure\\Data\\PedidoDbContext.cs",
+              "ToolTip": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Infrastructure\\Data\\PedidoDbContext.cs",
+              "RelativeToolTip": "src\\Pedido.Infrastructure\\Data\\PedidoDbContext.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAADgv0oAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T07:37:20.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PedidoRequestExample.cs",
+              "DocumentMoniker": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Api\\Examples\\Swagger\\PedidoRequestExample.cs",
+              "RelativeDocumentMoniker": "src\\Pedido.Api\\Examples\\Swagger\\PedidoRequestExample.cs",
+              "ToolTip": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Api\\Examples\\Swagger\\PedidoRequestExample.cs",
+              "RelativeToolTip": "src\\Pedido.Api\\Examples\\Swagger\\PedidoRequestExample.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAqwDUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T06:58:30.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\Pedido.Api\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\Pedido.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-08T07:06:15.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ErrorResponse.cs",
+              "DocumentMoniker": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Api\\Models\\ErrorResponse.cs",
+              "RelativeDocumentMoniker": "src\\Pedido.Api\\Models\\ErrorResponse.cs",
+              "ToolTip": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Api\\Models\\ErrorResponse.cs",
+              "RelativeToolTip": "src\\Pedido.Api\\Models\\ErrorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T06:39:21.109Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

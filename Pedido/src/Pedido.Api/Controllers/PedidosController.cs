@@ -4,6 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 using Pedido.Application.Commands;
 using Pedido.Application.DTOs;
 using Pedido.Application.Queries;
+using Pedido.Domain.Custumer.Entities;
+using Pedido.Domain.Exceptions;
 
 
 
@@ -26,12 +28,20 @@ namespace Pedido.Api.Controllers
         [ProducesResponseType(typeof(PedidoDto), StatusCodes.Status201Created)]
         public async Task<IActionResult> Create([FromBody] CreatePedidoDto request)
         {
+            // Se não tiver ClienteId, gera um GUID novo
+            if (!request.ClienteId.HasValue || request.ClienteId == Guid.Empty)
+                request.ClienteId = Guid.NewGuid();
+
+            // Mapear DTO para Command
             var command = new CreatePedidoCommand
             {
                 ClienteId = request.ClienteId,
+                ClienteNome = string.IsNullOrWhiteSpace(request.ClienteNome) ? "Cliente Anônimo" : request.ClienteNome,
                 Items = request.Items.Select(item => new CreatePedidoItemCommand
                 {
                     ProdutoId = item.ProdutoId,
+                    ProdutoNome = string.IsNullOrWhiteSpace(item.ProdutoNome) ? "Produto Anônimo" : item.ProdutoNome,
+                    UnitPrice = item.UnitPrice,
                     Quant = item.Quant
                 }).ToList()
             };
@@ -39,6 +49,10 @@ namespace Pedido.Api.Controllers
             var result = await _mediator.Send(command);
             return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
         }
+
+
+
+
 
         [HttpGet]
         //[Authorize]
