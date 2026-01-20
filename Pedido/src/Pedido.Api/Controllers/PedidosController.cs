@@ -83,7 +83,7 @@ namespace Pedido.Api.Controllers
             if (!result.Success)
                 return NotFound(result.Error);
 
-            return Ok(result.Order);
+            return Ok(result.Pedido);
         }
 
         [HttpPut("{id:guid}/status")]
@@ -111,9 +111,9 @@ namespace Pedido.Api.Controllers
 
             return Ok(new PedidoStatusDto
             {
-                OrderId = result.Order.Id,
-                Status = result.Order.Status,
-                CreatedAt = result.Order.CreatedAt
+                PedidoId = result.Pedido.Id,
+                Status = result.Pedido.Status,
+                CreatedAt = result.Pedido.CreatedAt
             });
         }
     }

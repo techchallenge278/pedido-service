@@ -1,0 +1,285 @@
+<testsuites>
+  <testsuite name="Pedido.Tests.dll" tests="108" skipped="0" failures="7" errors="0" time="0.6264969" timestamp="2026-01-09T17:27:23" hostname="AMND" id="0" package="Pedido.Tests.dll">
+    <properties />
+    <testcase classname="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests" name="DomainException_ThrowAndCatch_ShouldPreserveType" time="0.0101438" />
+    <testcase classname="Pedido.Tests.Application.Common.Exceptions.NotFoundExceptionTests" name="Constructor_WithNullInner_ShouldWorkCorrectly" time="0.0102541" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="SetUpdatedAt_ShouldSetUpdatedAtProperty" time="0.0101242" />
+    <testcase classname="UnknownNamespace.UnknownType" name="ClienteTests.CriarCliente_Valido_DeveFuncionar" time="0.0101376" />
+    <testcase classname="Pedido.Tests.Application.Common.Exceptions.ValidationExceptionTests" name="Constructor_MessageOnly_ShouldAssignMessage" time="0.0102314" />
+    <testcase classname="Pedido.Tests.Application.DTOs.PedidoStatusDtoTests" name="PedidoStatusDto_ShouldSetAllProperties" time="0.0109870" />
+    <testcase classname="Pedido.Tests.Domain.PedidoTests" name="SetQrCode_And_SetPreferenceId_ShouldAssignValues" time="0.0102008" />
+    <testcase classname="Pedido.Tests.Domain.Customers.Exceptions.ClienteDomainExceptionTests" name="Constructor_WithEmptyMessage_ShouldStillCreateException" time="0.0101413" />
+    <testcase classname="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="GetHashCode_WithNullValue_ShouldHandleNull" time="0.0101846" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests" name="DomainException_WithMessage_ShouldInitializeCorrectly" time="0.0001185" />
+    <testcase classname="Pedido.Tests.Domain.Customers.Exceptions.ClienteDomainExceptionTests" name="Constructor_WithMessage_ShouldSetMessageProperty" time="0.0001162" />
+    <testcase classname="Pedido.Tests.Application.DTOs.PedidoStatusDtoTests" name="PedidoStatusDto_ShouldInitializeWithDefaultValues" time="0.0003916" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="Equals_WithSameId_ShouldReturnTrue" time="0.0004051" />
+    <testcase classname="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="Equals_WithNullProperties_ShouldCompareCorrectly" time="0.0004960" />
+    <testcase classname="Pedido.Tests.Application.Common.Exceptions.NotFoundExceptionTests" name="MultipleInstances_SameMessage_ShouldNotBeSameObject" time="0.0005088" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="GetBrasilDateTime_ShouldReturnCurrentDateTime" time="0.0001154" />
+    <testcase classname="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="Equals_WithDifferentType_ShouldReturnFalse" time="0.0001440" />
+    <testcase classname="Pedido.Tests.Domain.Customers.Exceptions.ClienteDomainExceptionTests" name="Constructor_WithMessageAndInnerException_ShouldSetBothProperties" time="0.0007260" />
+    <testcase classname="Pedido.Tests.Application.Common.Exceptions.ValidationExceptionTests" name="Constructor_MessageAndInner_ShouldAssignBoth" time="0.0007634" />
+    <testcase classname="Pedido.Tests.Application.Common.Exceptions.NotFoundExceptionTests" name="Constructor_MessageAndInner_ShouldHandleBoth" time="0.0003262" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests" name="DomainException_WithNestedInnerExceptions_ShouldMaintainHierarchy" time="0.0007535" />
+    <testcase classname="Pedido.Tests.Application.Common.Exceptions.NotFoundExceptionTests" name="Constructor_MessageOnly_ShouldSetMessageProperly" time="0.0001071" />
+    <testcase classname="Pedido.Tests.Application.Common.Exceptions.ValidationExceptionTests" name="Constructor_NullInner_ShouldHandleGracefully" time="0.0001590" />
+    <testcase classname="Pedido.Tests.Domain.PedidoTests" name="AddItem_WhenPending_ShouldAddItemAndUpdateTotal" time="0.0010705" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="GetHashCode_ShouldReturnSameForSameId" time="0.0006089" />
+    <testcase classname="Pedido.Tests.Application.Common.Exceptions.ValidationExceptionTests" name="MultipleInstances_SameMessage_ShouldBeIndependent" time="0.0001250" />
+    <testcase classname="Pedido.Tests.Domain.PedidoTests" name="CalculateTotalPrice_WithMultipleItems_ShouldBeCorrect" time="0.0002513" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="OperatorNotEquals_WithDifferentEntities_ShouldReturnTrue" time="0.0001942" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests" name="DomainException_ToString_ShouldIncludeMessage" time="0.0005172" />
+    <testcase classname="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="ComplexComparison_ShouldBehaveCorrectly" time="0.0007910" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="Equals_WithNull_ShouldReturnFalse" time="0.0000643" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="OperatorEquals_WithNullAndNull_ShouldReturnTrue" time="0.0000472" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests" name="DomainException_MultipleInstances_WithSameMessage_ShouldHaveDifferentReferences" time="0.0001325" />
+    <testcase classname="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="Operators_ShouldBehaveCorrectly" time="0.0001395" />
+    <testcase classname="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="Equals_WithDifferentValues_ShouldReturnFalse" time="0.0000552" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests" name="DomainException_WithEmptyMessage_ShouldStillCreateException" time="0.0001218" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="Constructor_ShouldInitializeIdAndCreatedAt" time="0.0001883" />
+    <testcase classname="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="GetHashCode_WithSameValues_ShouldReturnSameHash" time="0.0000813" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="Equals_WithDifferentId_ShouldReturnFalse" time="0.0000522" />
+    <testcase classname="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="Equals_WithSameValues_ShouldReturnTrue" time="0.0000564" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests" name="DomainException_InnerExceptionNull_ShouldNotFail" time="0.0001310" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="OperatorEquals_WithSameId_ShouldReturnTrue" time="0.0000910" />
+    <testcase classname="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="Equals_WithNull_ShouldReturnFalse" time="0.0000500" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="Equals_WithDifferentType_ShouldReturnFalse" time="0.0000511" />
+    <testcase classname="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="GetHashCode_WithDifferentValues_ShouldReturnDifferentHash" time="0.0000541" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests" name="DomainException_WithWhitespaceMessage_ShouldTrimOrKeep" time="0.0001017" />
+    <testcase classname="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests" name="DomainException_WithMessageAndInnerException_ShouldContainInner" time="0.0001350" />
+    <testcase classname="Pedido.Tests.Domain.PedidoItemTests" name="Create_WithZeroQuantity_ShouldThrowException" time="0.0162862" />
+    <testcase classname="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithEmptyOrNullOrWhitespace_ShouldThrowException(invalidName: null)" time="0.0162467" />
+    <testcase classname="UnknownNamespace.UnknownType" name="ClienteTests.CriarCliente_ComNomeInvalido_DeveLancarExcecao" time="0.0044044" />
+    <testcase classname="Pedido.Tests.Domain.PedidoTests" name="SetQrCodeOrPreferenceId_WhenEmpty_ShouldThrowException" time="0.0031817" />
+    <testcase classname="Pedido.Tests.Domain.PedidoItemTests" name="WithQuantity_WithValidQuantity_ShouldReturnNewItem" time="0.0002856" />
+    <testcase classname="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithEmptyOrNullOrWhitespace_ShouldThrowException(invalidName: &quot;   &quot;)" time="0.0003055" />
+    <testcase classname="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithEmptyOrNullOrWhitespace_ShouldThrowException(invalidName: &quot;&quot;)" time="0.0001659" />
+    <testcase classname="Pedido.Tests.Domain.PedidoItemTests" name="WithQuantity_WithZeroQuantity_ShouldThrowException" time="0.0003547" />
+    <testcase classname="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithInvalidCharacters_ShouldThrowException(invalidName: &quot;João123&quot;)" time="0.0003694" />
+    <testcase classname="Pedido.Tests.Domain.PedidoTests" name="Create_WithValidData_ShouldInstantiateOrder" time="0.0007008" />
+    <testcase classname="Pedido.Tests.Domain.PedidoItemTests" name="Create_WithEmptyProductId_ShouldThrowException" time="0.0003396" />
+    <testcase classname="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithInvalidCharacters_ShouldThrowException(invalidName: &quot;Ana#Maria&quot;)" time="0.0002206" />
+    <testcase classname="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithInvalidCharacters_ShouldThrowException(invalidName: &quot;Maria@Silva&quot;)" time="0.0001370" />
+    <testcase classname="Pedido.Tests.Domain.PedidoItemTests" name="Create_WithZeroUnitPrice_ShouldThrowException" time="0.0003259" />
+    <testcase classname="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithValidName_ShouldReturnNameObject" time="0.0001018" />
+    <testcase classname="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithLowerCaseName_ShouldCapitalizeFirstLetters" time="0.0000881" />
+    <testcase classname="Pedido.Tests.Domain.PedidoTests" name="RemoveItem_WhenNotPending_ShouldThrowException" time="0.0006596" />
+    <testcase classname="Pedido.Tests.Domain.PedidoItemTests" name="Create_WithValidData_ShouldCreateOrderItem" time="0.0001947" />
+    <testcase classname="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithNameTooLong_ShouldThrowException" time="0.0003315" />
+    <testcase classname="Pedido.Tests.Domain.PedidoTests" name="RemoveItem_WhenDoesNotExist_ShouldReturnFalse" time="0.0002767" />
+    <testcase classname="Pedido.Tests.Domain.PedidoItemTests" name="Create_WithEmptyProductName_ShouldThrowException" time="0.0003145" />
+    <testcase classname="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithNameContainingAccents_ShouldCapitalizeProperly" time="0.0000802" />
+    <testcase classname="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithNameContainingMultipleSpaces_ShouldTrimAndCapitalize" time="0.0000587" />
+    <testcase classname="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithNameContainingHyphen_ShouldNormalizeCorrectly" time="0.0000626" />
+    <testcase classname="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="ImplicitConversion_ShouldReturnStringValue" time="0.0000826" />
+    <testcase classname="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithNameContainingApostrophe_ShouldNormalizeCorrectly" time="0.0000692" />
+    <testcase classname="Pedido.Tests.Domain.PedidoTests" name="Create_WithNoItems_ShouldThrowException" time="0.0004464" />
+    <testcase classname="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="ToString_ShouldReturnTheNameValue" time="0.0000676" />
+    <testcase classname="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithNameTooShort_ShouldThrowException" time="0.0004366" />
+    <testcase classname="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithNameContainingMixedCasesAndSpaces_ShouldNormalizeCorrectly" time="0.0001013" />
+    <testcase classname="Pedido.Tests.Domain.PedidoTests" name="UpdateStatus_ShouldAllowValidTransitions_AndThrowOnInvalid" time="0.0017423" />
+    <testcase classname="Pedido.Tests.Domain.PedidoTests" name="AddItem_WithNullItem_ShouldThrowException" time="0.0003794" />
+    <testcase classname="Pedido.Tests.Domain.PedidoTests" name="AddItem_WhenNotPending_ShouldThrowException" time="0.0004654" />
+    <testcase classname="Pedido.Tests.Domain.PedidoTests" name="Create_WithoutClient_ShouldAllowOrderWithNullClienteId" time="0.0002247" />
+    <testcase classname="Pedido.Tests.Domain.PedidoTests" name="RemoveItem_WhenExistsAndPending_ShouldRemoveAndUpdateTotal" time="0.0004984" />
+    <testcase classname="Pedido.Tests.Domain.PedidoTests" name="Create_WithInvalidClienteId_ShouldThrowException" time="0.0004189" />
+    <testcase classname="Pedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests" name="Validate_EmptyClienteId_ShouldFail" time="0.0312087" />
+    <testcase classname="Pedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests" name="Validate_EmptyItems_ShouldFailValidation" time="0.0009816" />
+    <testcase classname="Pedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests" name="Validate_ValidCommand_ShouldNotHaveErrors" time="0.0004619" />
+    <testcase classname="Pedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests" name="Validate_ItemWithEmptyProdutoId_ShouldFail" time="0.0006365" />
+    <testcase classname="Pedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests" name="Validate_NullItems_ShouldFailValidation" time="0.0002635" />
+    <testcase classname="Pedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests" name="Validate_ItemWithInvalidQuantity_ShouldFail(quantidade: 0)" time="0.0005536" />
+    <testcase classname="Pedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests" name="Validate_ItemWithInvalidQuantity_ShouldFail(quantidade: -1)" time="0.0001608" />
+    <testcase classname="Pedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests" name="Validate_MultipleInvalidFields_ShouldDetectAllErrors" time="0.0002810" />
+    <testcase classname="Pedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests" name="Validate_NullClienteId_ShouldPass" time="0.0002476" />
+    <testcase classname="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests" name="Handle_WithPageSizeGreaterThan100_ShouldCapAt100" time="0.0446740" />
+    <testcase classname="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests" name="Handle_WithInvalidPageSize_ShouldUseDefaultPageSize" time="0.0008454" />
+    <testcase classname="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests" name="Handle_WithValidRequest_ShouldReturnPedidos" time="0.0156058">
+      <failure type="failure" message="Expected result.Pedidos to contain 2 item(s), but found 0: {empty}.">at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+   at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)
+   at FluentAssertions.Collections.GenericCollectionAssertions`3.HaveCount(Int32 expected, String because, Object[] becauseArgs)
+   at Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithValidRequest_ShouldReturnPedidos() in D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\pedido\test\Pedido.Tests\Application\Queries\GetPedidosQueryHandlerTests.cs:line 56
+--- End of stack trace from previous location ---</failure>
+    </testcase>
+    <testcase classname="FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests" name="Handle_PedidoWithoutCliente_ShouldReturnPedidoWithNullClienteId" time="0.0611571">
+      <failure type="failure" message="Expected result.Success to be True, but found False.">at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+   at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.BooleanAssertions`1.BeTrue(String because, Object[] becauseArgs)
+   at FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests.Handle_PedidoWithoutCliente_ShouldReturnPedidoWithNullClienteId() in D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\pedido\test\Pedido.Tests\Application\Queries\GetPedidoByIdQueryHandlerTests.cs:line 114
+--- End of stack trace from previous location ---</failure>
+    </testcase>
+    <testcase classname="FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests" name="Handle_NonExistentItem_ShouldReturnFailure" time="0.0010244" />
+    <testcase classname="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests" name="Handle_WithRepositoryException_ShouldReturnEmptyList" time="0.0019626" />
+    <testcase classname="FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests" name="Handle_RepositoryThrowsException_ShouldReturnErrorResult" time="0.0009784" />
+    <testcase classname="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests" name="Handle_WithInvalidStatus_ShouldIgnoreStatusFilter" time="0.0008866" />
+    <testcase classname="FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests" name="Handle_PedidoWithMultipleItems_ShouldReturnAllItems" time="0.0015172">
+      <failure type="failure" message="Expected result.Success to be True, but found False.">at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+   at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.BooleanAssertions`1.BeTrue(String because, Object[] becauseArgs)
+   at FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests.Handle_PedidoWithMultipleItems_ShouldReturnAllItems() in D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\pedido\test\Pedido.Tests\Application\Queries\GetPedidoByIdQueryHandlerTests.cs:line 143
+--- End of stack trace from previous location ---</failure>
+    </testcase>
+    <testcase classname="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests" name="Handle_WithStatusFilter_ShouldReturnFilteredPedidos" time="0.0017010">
+      <failure type="failure" message="Expected result.Pedidos to contain 1 item(s), but found 0: {empty}.">at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+   at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)
+   at FluentAssertions.Collections.GenericCollectionAssertions`3.HaveCount(Int32 expected, String because, Object[] becauseArgs)
+   at Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithStatusFilter_ShouldReturnFilteredPedidos() in D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\pedido\test\Pedido.Tests\Application\Queries\GetPedidosQueryHandlerTests.cs:line 125
+--- End of stack trace from previous location ---</failure>
+    </testcase>
+    <testcase classname="FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests" name="Handle_ExistingPedido_ShouldReturnPedidoWithItems" time="0.0014608">
+      <failure type="failure" message="Expected result.Success to be True, but found False.">at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+   at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.BooleanAssertions`1.BeTrue(String because, Object[] becauseArgs)
+   at FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests.Handle_ExistingPedido_ShouldReturnPedidoWithItems() in D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\pedido\test\Pedido.Tests\Application\Queries\GetPedidoByIdQueryHandlerTests.cs:line 49
+--- End of stack trace from previous location ---</failure>
+    </testcase>
+    <testcase classname="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests" name="Handle_WithClienteIdFilter_ShouldReturnFilteredPedidos" time="0.0014447">
+      <failure type="failure" message="Expected result.Pedidos to contain 1 item(s), but found 0: {empty}.">at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+   at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)
+   at FluentAssertions.Collections.GenericCollectionAssertions`3.HaveCount(Int32 expected, String because, Object[] becauseArgs)
+   at Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithClienteIdFilter_ShouldReturnFilteredPedidos() in D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\pedido\test\Pedido.Tests\Application\Queries\GetPedidosQueryHandlerTests.cs:line 92
+--- End of stack trace from previous location ---</failure>
+    </testcase>
+    <testcase classname="FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests" name="Handle_PedidoWithRepeatedItems_ShouldReturnItemsIndividually" time="0.0012248">
+      <failure type="failure" message="Expected result.Success to be True, but found False.">at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+   at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+   at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)
+   at FluentAssertions.Primitives.BooleanAssertions`1.BeTrue(String because, Object[] becauseArgs)
+   at FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests.Handle_PedidoWithRepeatedItems_ShouldReturnItemsIndividually() in D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\pedido\test\Pedido.Tests\Application\Queries\GetPedidoByIdQueryHandlerTests.cs:line 191
+--- End of stack trace from previous location ---</failure>
+    </testcase>
+    <testcase classname="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests" name="Handle_WithInvalidPageNumber_ShouldUseDefaultPageNumber" time="0.0006886" />
+    <testcase classname="FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests" name="Handle_NonExistentPedido_ShouldReturnFailure" time="0.0007334" />
+    <testcase classname="Pedido.Tests.Infrastructure.Repositories.PedidoRepositoryTests" name="AddPedido_ShouldPersistInDatabase" time="0.3027254" />
+    <system-out>
+Test Framework Informational Messages:
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 9.0.11)
+[xUnit.net 00:00:00.06]   Discovering: Pedido.Tests
+[xUnit.net 00:00:00.09]   Discovered:  Pedido.Tests
+[xUnit.net 00:00:00.09]   Starting:    Pedido.Tests
+     Warning:
+     The component "Fluent Assertions" is governed by the rules defined in the Xceed License Agreement and
+     the Xceed Fluent Assertions Community License. You may use Fluent Assertions free of charge for
+     non-commercial use only. An active subscription is required to use Fluent Assertions for commercial use.
+     Please contact Xceed Sales mailto:sales@xceed.com to acquire a subscription at a very low cost.
+     A paid commercial license supports the development and continued increasing support of
+     Fluent Assertions users under both commercial and community licenses. Help us
+     keep Fluent Assertions at the forefront of unit testing.
+     For more information, visit https://xceed.com/products/unit-testing/fluent-assertions/
+[xUnit.net 00:00:00.18]       Expected result.Pedidos to contain 2 item(s), but found 0: {empty}.
+[xUnit.net 00:00:00.18]       Stack Trace:
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Collections.GenericCollectionAssertions`3.HaveCount(Int32 expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:00.18]         D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\pedido\test\Pedido.Tests\Application\Queries\GetPedidosQueryHandlerTests.cs(56,0): at Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithValidRequest_ShouldReturnPedidos()
+[xUnit.net 00:00:00.18]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:00.18]       Expected result.Success to be True, but found False.
+[xUnit.net 00:00:00.18]       Stack Trace:
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Primitives.BooleanAssertions`1.BeTrue(String because, Object[] becauseArgs)
+[xUnit.net 00:00:00.18]         D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\pedido\test\Pedido.Tests\Application\Queries\GetPedidoByIdQueryHandlerTests.cs(114,0): at FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests.Handle_PedidoWithoutCliente_ShouldReturnPedidoWithNullClienteId()
+[xUnit.net 00:00:00.18]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:00.18]       Expected result.Success to be True, but found False.
+[xUnit.net 00:00:00.18]       Stack Trace:
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Primitives.BooleanAssertions`1.BeTrue(String because, Object[] becauseArgs)
+[xUnit.net 00:00:00.18]         D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\pedido\test\Pedido.Tests\Application\Queries\GetPedidoByIdQueryHandlerTests.cs(143,0): at FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests.Handle_PedidoWithMultipleItems_ShouldReturnAllItems()
+[xUnit.net 00:00:00.18]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:00.18]       Expected result.Pedidos to contain 1 item(s), but found 0: {empty}.
+[xUnit.net 00:00:00.18]       Stack Trace:
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Collections.GenericCollectionAssertions`3.HaveCount(Int32 expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:00.18]         D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\pedido\test\Pedido.Tests\Application\Queries\GetPedidosQueryHandlerTests.cs(125,0): at Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithStatusFilter_ShouldReturnFilteredPedidos()
+[xUnit.net 00:00:00.18]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:00.18]       Expected result.Success to be True, but found False.
+[xUnit.net 00:00:00.18]       Stack Trace:
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Primitives.BooleanAssertions`1.BeTrue(String because, Object[] becauseArgs)
+[xUnit.net 00:00:00.18]         D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\pedido\test\Pedido.Tests\Application\Queries\GetPedidoByIdQueryHandlerTests.cs(49,0): at FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests.Handle_ExistingPedido_ShouldReturnPedidoWithItems()
+[xUnit.net 00:00:00.18]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:00.18]       Expected result.Pedidos to contain 1 item(s), but found 0: {empty}.
+[xUnit.net 00:00:00.18]       Stack Trace:
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Collections.GenericCollectionAssertions`3.HaveCount(Int32 expected, String because, Object[] becauseArgs)
+[xUnit.net 00:00:00.18]         D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\pedido\test\Pedido.Tests\Application\Queries\GetPedidosQueryHandlerTests.cs(92,0): at Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithClienteIdFilter_ShouldReturnFilteredPedidos()
+[xUnit.net 00:00:00.18]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:00.18]       Expected result.Success to be True, but found False.
+[xUnit.net 00:00:00.18]       Stack Trace:
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)
+[xUnit.net 00:00:00.18]            at FluentAssertions.Primitives.BooleanAssertions`1.BeTrue(String because, Object[] becauseArgs)
+[xUnit.net 00:00:00.18]         D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\pedido\test\Pedido.Tests\Application\Queries\GetPedidoByIdQueryHandlerTests.cs(191,0): at FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests.Handle_PedidoWithRepeatedItems_ShouldReturnItemsIndividually()
+[xUnit.net 00:00:00.18]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:00.42]   Finished:    Pedido.Tests
+</system-out>
+    <system-err>Error - [xUnit.net 00:00:00.18]     Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithValidRequest_ShouldReturnPedidos [FAIL]
+Error - [xUnit.net 00:00:00.18]     Pedido sem cliente deve retornar com ClienteId nulo [FAIL]
+Error - [xUnit.net 00:00:00.18]     Pedido com múltiplos itens retorna todos corretamente [FAIL]
+Error - [xUnit.net 00:00:00.18]     Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithStatusFilter_ShouldReturnFilteredPedidos [FAIL]
+Error - [xUnit.net 00:00:00.18]     Deve retornar pedido existente corretamente [FAIL]
+Error - [xUnit.net 00:00:00.18]     Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithClienteIdFilter_ShouldReturnFilteredPedidos [FAIL]
+Error - [xUnit.net 00:00:00.18]     Pedido com itens repetidos deve retornar todas as entradas separadas [FAIL]
+</system-err>
+  </testsuite>
+</testsuites>

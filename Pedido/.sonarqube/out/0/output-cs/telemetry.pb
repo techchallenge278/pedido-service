@@ -1,0 +1,1 @@
+zRdD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Domain\Pedido.Domain.csproj¢net8.0òCSharp12

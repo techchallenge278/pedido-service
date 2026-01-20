@@ -1,0 +1,1 @@
+tR^D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Api\Pedido.Api.csproj¢net8.0òCSharp12

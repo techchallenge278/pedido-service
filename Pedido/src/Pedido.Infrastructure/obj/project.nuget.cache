@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "s5hQ1jHphYY=",
+  "dgSpecHash": "5VYQJ8wu8/U=",
   "success": true,
   "projectFilePath": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Infrastructure\\Pedido.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -78,7 +78,8 @@
     "C:\\Users\\amand\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
     "C:\\Users\\amand\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
     "C:\\Users\\amand\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\amand\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\amand\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
+    "C:\\Users\\amand\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

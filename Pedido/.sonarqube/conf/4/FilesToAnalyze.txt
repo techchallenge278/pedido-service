@@ -1,0 +1,58 @@
+﻿D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Api\Controllers\PedidosControllerTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Api\Middlewares\ExceptionHandlerMiddlewareTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Commands\CreatePedidoCommandHandlerTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Commands\CreatePedidoCommandValidatorTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Commands\UpdatePedidoStatusCommandHandlerTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Common\Exceptions\NotFoundExceptionTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Common\Exceptions\ValidationExceptionTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\DTOs\PedidoStatusDtoTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Queries\GetPedidoByIdQueryHandlerTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Queries\GetPedidosQueryHandlerTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Domain\Customer\Entities\ClienteTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Domain\Customer\Exceptions\ClienteDomainExceptionTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Domain\Customer\ValueObjects\NameTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Domain\PedidoItemTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Domain\PedidoTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Domain\Shared\Entities\EntityTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Domain\Shared\Exceptions\DomainExceptionTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Domain\Shared\ValueObjects\ValueObjectTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Infrastructure\Data\FakeEntity.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Infrastructure\Data\FakeRepository.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Infrastructure\Data\PedidoDbContextTest.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Infrastructure\Data\RepositoryBaseTests.cs
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Infrastructure\Repositories\PedidoRepositoryTests.cs
+C:\Users\amand\.nuget\packages\microsoft.net.test.sdk\17.12.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs
+C:\Users\amand\.nuget\packages\microsoft.testplatform.testhost\17.12.0\build\netcoreapp3.1\x64\testhost.exe
+C:\Users\amand\.nuget\packages\microsoft.testplatform.testhost\17.12.0\build\netcoreapp3.1\x64\testhost.dll
+C:\Users\amand\.nuget\packages\junitxml.testlogger\8.0.0\build\_common\Microsoft.VisualStudio.TestPlatform.Extension.JUnit.Xml.TestLogger.dll
+C:\Users\amand\.nuget\packages\junitxml.testlogger\8.0.0\build\_common\Spekt.TestLogger.dll
+C:\Users\amand\.nuget\packages\xunit.runner.visualstudio\2.8.2\build\net6.0\xunit.runner.visualstudio.testadapter.dll
+C:\Users\amand\.nuget\packages\xunit.runner.visualstudio\2.8.2\build\net6.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\amand\.nuget\packages\xunit.runner.visualstudio\2.8.2\build\net6.0\xunit.runner.utility.netcoreapp10.dll
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\coverage.opencover.xm
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\coverage.opencover.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\coverage\coverage.opencover.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\0caa9e55-67a4-44aa-be6d-d7715fa4a604\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\2f310ca7-551b-48c7-a658-da04da527380\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\3993ea48-ea09-46dd-b994-380699962f93\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\5b37cca9-35bf-44fa-aef3-7fd894ed6b7d\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\71b6b11b-176d-4837-b411-e09fe8cecd99\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\720ac9fc-c49b-4783-8f03-13404a87acda\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\94d026c8-a1cf-4f23-9882-b99defc72559\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\9a105659-6de8-4b2b-b0ab-332c3f9d348a\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\9c62a44b-85f2-412f-bb81-42ce988dee54\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\a878acd1-bdf6-49d9-9036-3b049f25c862\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\aee69bbc-7646-4d55-85b1-150071582514\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\amand_AMND_2026-01-09_14_31_04\In\AMND\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\amand_AMND_2026-01-09_14_34_46\In\AMND\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\amand_AMND_2026-01-09_14_43_12\In\AMND\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\amand_AMND_2026-01-09_14_46_09\In\AMND\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\amand_AMND_2026-01-09_14_49_08\In\AMND\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\amand_AMND_2026-01-09_14_51_15\In\AMND\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\amand_AMND_2026-01-09_14_53_25\In\AMND\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\amand_AMND_2026-01-09_14_56_49\In\AMND\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\b40f1fe5-1ff8-4d12-b0ad-28d4db15e72f\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\fac780bb-91ab-4b48-a466-28dbd746973c\coverage.cobertura.xml
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\TestResults.trx
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\TestResults\TestResults\TestResults.trx

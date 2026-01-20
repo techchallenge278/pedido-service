@@ -1,0 +1,1 @@
+„RnD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Application\Pedido.Application.csproj¢net8.0òCSharp12

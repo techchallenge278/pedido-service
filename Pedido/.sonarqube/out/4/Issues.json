@@ -1,0 +1,163 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "4.14.0.0",
+        "fileVersion": "4.14.0-3.25465.8 (b0a9adbf)",
+        "semanticVersion": "4.14.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "Não é possível converter um literal nulo em um tipo de referência não anulável.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projetos/techChallenge%20-%20Fase%204/MicroServico-Pedido/Pedido/test/Pedido.Tests/Application/Common/Exceptions/NotFoundExceptionTests.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 70,
+                  "endLine": 29,
+                  "endColumn": 74
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1050",
+          "level": "note",
+          "message": "Declarar tipos em namespaces",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projetos/techChallenge%20-%20Fase%204/MicroServico-Pedido/Pedido/test/Pedido.Tests/Domain/Customer/Entities/ClienteTests.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 14,
+                  "endLine": 7,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1806",
+          "level": "note",
+          "message": "CriarCliente_ComNomeInvalido_DeveLancarExcecao cria uma nova instância de Cliente que nunca é usada. Passe a instância como argumento para outro método, atribua a instância a uma variável ou remova a criação do objeto se ela for desnecessária.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projetos/techChallenge%20-%20Fase%204/MicroServico-Pedido/Pedido/test/Pedido.Tests/Domain/Customer/Entities/ClienteTests.cs",
+                "region": {
+                  "startLine": 34,
+                  "startColumn": 28,
+                  "endLine": 34,
+                  "endColumn": 65
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "xUnit1012",
+          "level": "warning",
+          "message": "Null should not be used for type parameter 'invalidName' of type 'string'. Use a non-null value, or convert the parameter to a nullable type.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Projetos/techChallenge%20-%20Fase%204/MicroServico-Pedido/Pedido/test/Pedido.Tests/Domain/Customer/ValueObjects/NameTests.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 17,
+                  "endLine": 38,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "ParameterIndex": "0",
+              "ParameterName": "invalidName"
+            }
+          }
+        }
+      ],
+      "rules": {
+        "CA1050": {
+          "id": "CA1050",
+          "shortDescription": "Declarar tipos em namespaces",
+          "fullDescription": "Os tipos são declarados em namespaces para impedir colisões de nomes e como uma forma de organizar tipos relacionados em uma hierarquia de objetos.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1050",
+          "properties": {
+            "category": "Design",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1806": {
+          "id": "CA1806",
+          "shortDescription": "Não ignorar resultados de métodos",
+          "fullDescription": "Um novo objeto é criado, mas nunca usado; ou um método que cria e retorna uma nova cadeia de caracteres é chamado e a nova cadeia de caracteres nunca é usada; ou um método COM ou P/Invoke retorna um HRESULT ou um código de erro que nunca é usado.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1806",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS8625": {
+          "id": "CS8625",
+          "shortDescription": "Não é possível converter um literal nulo em um tipo de referência não anulável.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8625)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "xUnit1012": {
+          "id": "xUnit1012",
+          "shortDescription": "Null should only be used for nullable parameters",
+          "defaultLevel": "warning",
+          "helpUri": "https://xunit.net/xunit.analyzers/rules/xUnit1012",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true
+          }
+        }
+      }
+    }
+  ]
+}

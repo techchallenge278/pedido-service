@@ -13,7 +13,7 @@ namespace Pedido.Application.Commands
     public class CreatePedidoItemCommand
     {
         public Guid ProdutoId { get; set; }       
-        public string ProdutoNome { get; set; } = default!;
+        public string? ProdutoNome { get; set; } = default!;
         public decimal UnitPrice { get; set; }
         public int Quant { get; set; }
     }
@@ -33,7 +33,7 @@ namespace Pedido.Application.Commands
     {
         public Guid Id { get; set; }
         public Guid ProdutoId { get; set; }
-        public string ProdutoNome { get; set; } = string.Empty;
+        public string? ProdutoNome { get; set; } = string.Empty;
         public decimal UnitPrice { get; set; }
         public int Quant { get; set; }
         public decimal SubTotal { get; set; }

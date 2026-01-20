@@ -7,7 +7,8 @@ using Pedido.Domain.ValueObjects;
 
 namespace Pedido.Application.Commands
 {
-    public class CreatePedidoCommandHandler : IRequestHandler<CreatePedidoCommand, CreatePedidoCommandResult>
+    public class CreatePedidoCommandHandler
+        : IRequestHandler<CreatePedidoCommand, CreatePedidoCommandResult>
     {
         private readonly IPedidoRepository _orderRepository;
 
@@ -16,31 +17,41 @@ namespace Pedido.Application.Commands
             _orderRepository = orderRepository;
         }
 
-        public async Task<CreatePedidoCommandResult> Handle(CreatePedidoCommand request, CancellationToken cancellationToken)
+        public async Task<CreatePedidoCommandResult> Handle(
+            CreatePedidoCommand request,
+            CancellationToken cancellationToken)
         {
             if (request.Items == null || !request.Items.Any())
                 throw new PedidoDomainException("O pedido deve ter pelo menos um item.");
 
-            var pedidoItems = request.Items.Select(item =>
-            {
-                // Validar produtoNome
-                var produtoNome = string.IsNullOrWhiteSpace(item.ProdutoNome)
-                    ? "Produto Anônimo"
-                    : item.ProdutoNome;
+            // 🔥 CONSOLIDA ITENS PELO PRODUTO ID
+            var pedidoItems = request.Items
+                .GroupBy(i => i.ProdutoId)
+                .Select(group =>
+                {
+                    var first = group.First();
 
-                // Validar preço unitário
-                if (item.UnitPrice <= 0)
-                    throw new PedidoDomainException($"O preço unitário do produto {produtoNome} deve ser maior que zero.");
+                    var produtoNome = string.IsNullOrWhiteSpace(first.ProdutoNome)
+                        ? "Produto Anônimo"
+                        : first.ProdutoNome;
 
-                return PedidoItem.Create(
-                    item.ProdutoId,
-                    produtoNome,
-                    item.UnitPrice,
-                    item.Quant
-                );
-            }).ToList();
+                    if (group.Any(i => i.UnitPrice <= 0))
+                        throw new PedidoDomainException(
+                            $"O preço unitário do produto {produtoNome} deve ser maior que zero.");
 
-            // Criar pedido (ClienteId pode ser null)
+                    if (group.Any(i => i.Quant <= 0))
+                        throw new PedidoDomainException(
+                            $"A quantidade do produto {produtoNome} deve ser maior que zero.");
+
+                    return PedidoItem.Create(
+                        first.ProdutoId,
+                        produtoNome,
+                        first.UnitPrice,
+                        group.Sum(i => i.Quant)
+                    );
+                })
+                .ToList();
+
             var pedido = Pedido.Domain.Entities.Pedido.Create(
                 request.ClienteId,
                 pedidoItems
@@ -52,7 +63,9 @@ namespace Pedido.Application.Commands
             {
                 Id = pedido.Id,
                 ClienteId = pedido.ClienteId,
-                ClienteName = request.ClienteNome,
+                ClienteName = string.IsNullOrWhiteSpace(request.ClienteNome)
+                    ? null
+                    : request.ClienteNome,
                 Status = pedido.Status.ToString(),
                 TotalPrice = pedido.TotalPrice,
                 CreatedAt = pedido.CreatedAt,

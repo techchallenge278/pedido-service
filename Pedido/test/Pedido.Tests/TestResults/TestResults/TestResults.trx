@@ -1,0 +1,899 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="e962b083-c035-4245-961a-995555f6ce75" name="amand@AMND 2026-01-09 14:56:49" runUser="AMND\amand" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-01-09T14:56:49.0667168-03:00" queuing="2026-01-09T14:56:49.0667169-03:00" start="2026-01-09T14:56:48.3553683-03:00" finish="2026-01-09T14:56:49.5700005-03:00" />
+  <TestSettings name="default" id="68ea495d-a205-4a25-982b-982f32106301">
+    <Deployment runDeploymentRoot="amand_AMND_2026-01-09_14_56_49" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="fb6db6ea-3b8b-41d0-af36-b28ea1b1c9a0" testId="d6f6b3fa-23b6-8c99-cd51-df93796f19fc" testName="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests.DomainException_WithWhitespaceMessage_ShouldTrimOrKeep" computerName="AMND" duration="00:00:00.0000561" startTime="2026-01-09T14:56:49.0654512-03:00" endTime="2026-01-09T14:56:49.0654513-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb6db6ea-3b8b-41d0-af36-b28ea1b1c9a0" />
+    <UnitTestResult executionId="62388c68-3022-41ef-b3da-1db40163a0cc" testId="c642a4b1-1859-7429-7958-fba1e7ae51a2" testName="Pedido.Tests.Domain.PedidoTests.SetQrCode_And_SetPreferenceId_ShouldAssignValues" computerName="AMND" duration="00:00:00.0103186" startTime="2026-01-09T14:56:49.0529433-03:00" endTime="2026-01-09T14:56:49.0529433-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="62388c68-3022-41ef-b3da-1db40163a0cc" />
+    <UnitTestResult executionId="846769ad-2553-4e72-8790-053aa5973f05" testId="3bf28ae0-ee16-367c-6753-02fce166cd35" testName="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.ImplicitConversion_ShouldReturnStringValue" computerName="AMND" duration="00:00:00.0000851" startTime="2026-01-09T14:56:49.0718936-03:00" endTime="2026-01-09T14:56:49.0718936-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="846769ad-2553-4e72-8790-053aa5973f05" />
+    <UnitTestResult executionId="a0d7acb0-525b-4b3c-b2d5-5558c64be32b" testId="106e8726-691b-53c2-c695-85675d19daae" testName="Pedido.Tests.Domain.PedidoTests.Create_WithNoItems_ShouldThrowException" computerName="AMND" duration="00:00:00.0003427" startTime="2026-01-09T14:56:49.0724487-03:00" endTime="2026-01-09T14:56:49.0724488-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a0d7acb0-525b-4b3c-b2d5-5558c64be32b" />
+    <UnitTestResult executionId="0430c3de-df23-4ad8-b9d0-106ba5cbe37d" testId="6961fc83-142c-a568-e973-72d83ed1b33f" testName="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests.DomainException_ThrowAndCatch_ShouldPreserveType" computerName="AMND" duration="00:00:00.0103540" startTime="2026-01-09T14:56:49.0530364-03:00" endTime="2026-01-09T14:56:49.0530365-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0430c3de-df23-4ad8-b9d0-106ba5cbe37d" />
+    <UnitTestResult executionId="58a63a51-7527-4c62-9938-274be20286a4" testId="c994bf4b-c103-95be-66bf-d7c57694145c" testName="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithStatusFilter_ShouldReturnFilteredPedidos" computerName="AMND" duration="00:00:00.0019304" startTime="2026-01-09T14:56:49.1040490-03:00" endTime="2026-01-09T14:56:49.1040491-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="58a63a51-7527-4c62-9938-274be20286a4">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected result.Pedidos to contain 1 item(s), but found 0: {empty}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)&#xD;
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)&#xD;
+   at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)&#xD;
+   at FluentAssertions.Collections.GenericCollectionAssertions`3.HaveCount(Int32 expected, String because, Object[] becauseArgs)&#xD;
+   at Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithStatusFilter_ShouldReturnFilteredPedidos() in D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Queries\GetPedidosQueryHandlerTests.cs:line 125&#xD;
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f4594fdf-d2e5-495b-8255-0e88997a79ce" testId="35a615d6-5b09-7d8b-7f69-4f7c5b9d01dd" testName="Pedido.Tests.Domain.PedidoTests.Create_WithoutClient_ShouldAllowOrderWithNullClienteId" computerName="AMND" duration="00:00:00.0002333" startTime="2026-01-09T14:56:49.0736344-03:00" endTime="2026-01-09T14:56:49.0736345-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4594fdf-d2e5-495b-8255-0e88997a79ce" />
+    <UnitTestResult executionId="a3195a95-3eb9-4316-b856-474a13e3934a" testId="ceb40ccd-5adb-7a09-ec8c-cd272666bfab" testName="ValueObject: Equals retorna true para objetos com valores iguais" computerName="AMND" duration="00:00:00.0000526" startTime="2026-01-09T14:56:49.0668248-03:00" endTime="2026-01-09T14:56:49.0668248-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3195a95-3eb9-4316-b856-474a13e3934a" />
+    <UnitTestResult executionId="4b38387f-d7a5-4966-86e8-02a42d48ba0c" testId="93c5cc29-0eb1-d457-af4c-47e437ca2f48" testName="ValueObject: Comparação de cadeia complexa" computerName="AMND" duration="00:00:00.0008512" startTime="2026-01-09T14:56:49.0642808-03:00" endTime="2026-01-09T14:56:49.0642808-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b38387f-d7a5-4966-86e8-02a42d48ba0c" />
+    <UnitTestResult executionId="ee4c915a-2706-45c1-820d-18ddced285b5" testId="9ead71e9-6596-bd8e-40b5-d8fc8c64d615" testName="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests.DomainException_WithEmptyMessage_ShouldStillCreateException" computerName="AMND" duration="00:00:00.0000839" startTime="2026-01-09T14:56:49.0646803-03:00" endTime="2026-01-09T14:56:49.0646804-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ee4c915a-2706-45c1-820d-18ddced285b5" />
+    <UnitTestResult executionId="b6333d53-9228-456b-8538-62b1f0daca9b" testId="7e5e52ed-f3d4-a128-aa82-94525aeda4bc" testName="Pedido.Tests.Domain.Shared.Entities.EntityTests.GetHashCode_ShouldReturnSameForSameId" computerName="AMND" duration="00:00:00.0004833" startTime="2026-01-09T14:56:49.0630598-03:00" endTime="2026-01-09T14:56:49.0630599-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6333d53-9228-456b-8538-62b1f0daca9b" />
+    <UnitTestResult executionId="db07126e-a674-46a6-bb47-b805c9445da6" testId="ced99850-72ad-f2ac-08a1-ca01cf995529" testName="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithEmptyOrNullOrWhitespace_ShouldThrowException(invalidName: &quot;   &quot;)" computerName="AMND" duration="00:00:00.0002634" startTime="2026-01-09T14:56:49.0684450-03:00" endTime="2026-01-09T14:56:49.0684450-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db07126e-a674-46a6-bb47-b805c9445da6" />
+    <UnitTestResult executionId="ecbbe388-2d13-4bfe-9068-2217a76b41fd" testId="89a74892-8793-dfb8-0d00-26d0b51c14d4" testName="Pedido.Tests.Domain.Shared.Entities.EntityTests.OperatorEquals_WithNullAndNull_ShouldReturnTrue" computerName="AMND" duration="00:00:00.0000503" startTime="2026-01-09T14:56:49.0640904-03:00" endTime="2026-01-09T14:56:49.0640904-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ecbbe388-2d13-4bfe-9068-2217a76b41fd" />
+    <UnitTestResult executionId="2c0c9084-69b2-4a13-b0e0-a0503748486d" testId="b86ca02e-556e-7b1a-6e43-b5aa7f1ac4b1" testName="ValueObject: HashCode é consistente para valores iguais" computerName="AMND" duration="00:00:00.0001119" startTime="2026-01-09T14:56:49.0666337-03:00" endTime="2026-01-09T14:56:49.0666338-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c0c9084-69b2-4a13-b0e0-a0503748486d" />
+    <UnitTestResult executionId="920e4e36-8f3c-45a1-95b1-096b17715e28" testId="41b64ffb-b405-d440-dcf8-6c978b2d1f88" testName="ClienteTests.CriarCliente_ComNomeInvalido_DeveLancarExcecao" computerName="AMND" duration="00:00:00.0048304" startTime="2026-01-09T14:56:49.0676899-03:00" endTime="2026-01-09T14:56:49.0676899-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="920e4e36-8f3c-45a1-95b1-096b17715e28" />
+    <UnitTestResult executionId="f8773c2d-24ee-4368-86fd-544ca80c533e" testId="d7efb34f-506f-1c13-a926-80d9f29c5eae" testName="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithNameContainingMultipleSpaces_ShouldTrimAndCapitalize" computerName="AMND" duration="00:00:00.0001030" startTime="2026-01-09T14:56:49.0715955-03:00" endTime="2026-01-09T14:56:49.0715956-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8773c2d-24ee-4368-86fd-544ca80c533e" />
+    <UnitTestResult executionId="505ec9f0-46a2-4ef2-920d-ae52c459653f" testId="93d50f6f-add2-898b-6dab-2d2c4faf9fd1" testName="Comando válido não deve gerar erros de validação" computerName="AMND" duration="00:00:00.0004628" startTime="2026-01-09T14:56:49.0747460-03:00" endTime="2026-01-09T14:56:49.0747460-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="505ec9f0-46a2-4ef2-920d-ae52c459653f" />
+    <UnitTestResult executionId="e5d0c00c-d797-430d-bc7c-a34c34ff273a" testId="a1801f4b-85fc-6a41-7734-d4f8a8e9fe3a" testName="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithValidRequest_ShouldReturnPedidos" computerName="AMND" duration="00:00:00.0198019" startTime="2026-01-09T14:56:49.1012645-03:00" endTime="2026-01-09T14:56:49.1012646-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e5d0c00c-d797-430d-bc7c-a34c34ff273a">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected result.Pedidos to contain 2 item(s), but found 0: {empty}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)&#xD;
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)&#xD;
+   at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)&#xD;
+   at FluentAssertions.Collections.GenericCollectionAssertions`3.HaveCount(Int32 expected, String because, Object[] becauseArgs)&#xD;
+   at Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithValidRequest_ShouldReturnPedidos() in D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Queries\GetPedidosQueryHandlerTests.cs:line 56&#xD;
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e9d9d2b9-a720-4f13-b8c6-5e887bc2e671" testId="77fcfa66-a8e5-afb7-278d-c00d96e34128" testName="Deve retornar pedido existente corretamente" computerName="AMND" duration="00:00:00.0015271" startTime="2026-01-09T14:56:49.1035218-03:00" endTime="2026-01-09T14:56:49.1035220-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9d9d2b9-a720-4f13-b8c6-5e887bc2e671">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected result.Success to be True, but found False.</Message>
+          <StackTrace>   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)&#xD;
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)&#xD;
+   at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)&#xD;
+   at FluentAssertions.Primitives.BooleanAssertions`1.BeTrue(String because, Object[] becauseArgs)&#xD;
+   at FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests.Handle_ExistingPedido_ShouldReturnPedidoWithItems() in D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Queries\GetPedidoByIdQueryHandlerTests.cs:line 49&#xD;
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5800f17a-4cbe-4554-9857-2cd9175043c6" testId="4d05673f-0565-0ecd-97b5-171a55481a12" testName="Deve criar exceção com mensagem e inner exception" computerName="AMND" duration="00:00:00.0004798" startTime="2026-01-09T14:56:49.0616532-03:00" endTime="2026-01-09T14:56:49.0616533-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5800f17a-4cbe-4554-9857-2cd9175043c6" />
+    <UnitTestResult executionId="c68a5493-3c8b-4ee2-9a9a-3776dd3767d5" testId="8d21169d-a7eb-35a5-3677-6c58310b9dfa" testName="Se algum item do pedido não existir, o handler deve retornar erro" computerName="AMND" duration="00:00:00.0011703" startTime="2026-01-09T14:56:49.1015796-03:00" endTime="2026-01-09T14:56:49.1015797-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c68a5493-3c8b-4ee2-9a9a-3776dd3767d5" />
+    <UnitTestResult executionId="56dd74c7-ebbe-431f-a232-3803c490de31" testId="d45cff0e-5a4b-c42b-0890-357265e4e7bb" testName="Pedido.Tests.Domain.PedidoTests.Create_WithInvalidClienteId_ShouldThrowException" computerName="AMND" duration="00:00:00.0003646" startTime="2026-01-09T14:56:49.0740138-03:00" endTime="2026-01-09T14:56:49.0740138-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56dd74c7-ebbe-431f-a232-3803c490de31" />
+    <UnitTestResult executionId="610587f3-6e42-46c7-9dbe-7930cfb4a449" testId="b966839a-c3fb-7fc0-aab7-083554a4e36a" testName="Pedido.Tests.Domain.PedidoTests.SetQrCodeOrPreferenceId_WhenEmpty_ShouldThrowException" computerName="AMND" duration="00:00:00.0037913" startTime="2026-01-09T14:56:49.0680194-03:00" endTime="2026-01-09T14:56:49.0680195-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="610587f3-6e42-46c7-9dbe-7930cfb4a449" />
+    <UnitTestResult executionId="905a7de2-98a3-4e72-b31e-bdfb59615784" testId="0d1b0a21-ed04-bd08-6929-641463c7f14d" testName="Pedido.Tests.Domain.PedidoItemTests.WithQuantity_WithValidQuantity_ShouldReturnNewItem" computerName="AMND" duration="00:00:00.0002939" startTime="2026-01-09T14:56:49.0688524-03:00" endTime="2026-01-09T14:56:49.0688525-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="905a7de2-98a3-4e72-b31e-bdfb59615784" />
+    <UnitTestResult executionId="a1004788-0a5a-43f3-8d5d-fb5a0b532d22" testId="9e25376d-f738-1ce4-226e-6a9cc887e730" testName="Pedido.Tests.Domain.Shared.Entities.EntityTests.Equals_WithNull_ShouldReturnFalse" computerName="AMND" duration="00:00:00.0000704" startTime="2026-01-09T14:56:49.0637340-03:00" endTime="2026-01-09T14:56:49.0637341-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1004788-0a5a-43f3-8d5d-fb5a0b532d22" />
+    <UnitTestResult executionId="70a12365-c8ce-4317-a5e3-d34ece0be93e" testId="a52f98b8-e8ec-ee2d-444c-bba42fffede8" testName="Itens com quantidade inválida devem gerar erro(quantidade: -1)" computerName="AMND" duration="00:00:00.0002087" startTime="2026-01-09T14:56:49.0754885-03:00" endTime="2026-01-09T14:56:49.0754886-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="70a12365-c8ce-4317-a5e3-d34ece0be93e" />
+    <UnitTestResult executionId="54ac2ce0-40e7-4749-997a-7e8b464acdcd" testId="8db81150-415a-bfa6-821e-e256b9613a60" testName="Pedido.Tests.Domain.PedidoTests.RemoveItem_WhenDoesNotExist_ShouldReturnFalse" computerName="AMND" duration="00:00:00.0002301" startTime="2026-01-09T14:56:49.0719455-03:00" endTime="2026-01-09T14:56:49.0719455-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54ac2ce0-40e7-4749-997a-7e8b464acdcd" />
+    <UnitTestResult executionId="b6229537-d65c-4593-9a09-74855bc7e3ec" testId="ab0d71a9-0912-5aa9-1b14-d0292187be22" testName="Deve inicializar exceção com mensagem e inner exception" computerName="AMND" duration="00:00:00.0007532" startTime="2026-01-09T14:56:49.0617838-03:00" endTime="2026-01-09T14:56:49.0617839-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6229537-d65c-4593-9a09-74855bc7e3ec" />
+    <UnitTestResult executionId="c12cc080-adf5-4637-8fb1-31f90365a6a9" testId="86f0519c-2ef1-3d66-1850-563af8c9530a" testName="Pedido sem cliente deve retornar com ClienteId nulo" computerName="AMND" duration="00:00:00.0680673" startTime="2026-01-09T14:56:49.1005790-03:00" endTime="2026-01-09T14:56:49.1005792-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c12cc080-adf5-4637-8fb1-31f90365a6a9">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected result.Success to be True, but found False.</Message>
+          <StackTrace>   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)&#xD;
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)&#xD;
+   at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)&#xD;
+   at FluentAssertions.Primitives.BooleanAssertions`1.BeTrue(String because, Object[] becauseArgs)&#xD;
+   at FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests.Handle_PedidoWithoutCliente_ShouldReturnPedidoWithNullClienteId() in D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Queries\GetPedidoByIdQueryHandlerTests.cs:line 114&#xD;
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2cb0292c-f7e0-4dde-8401-d38f6c9604d8" testId="8404cd4b-8370-c5e0-9eb2-c8124240ebb7" testName="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithRepositoryException_ShouldReturnEmptyList" computerName="AMND" duration="00:00:00.0030704" startTime="2026-01-09T14:56:49.1019782-03:00" endTime="2026-01-09T14:56:49.1019783-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2cb0292c-f7e0-4dde-8401-d38f6c9604d8" />
+    <UnitTestResult executionId="40760a19-a987-49dd-886d-29c6ecec24f1" testId="f7761c97-2d75-9b4b-c0dd-20f056bb172b" testName="Pedido com itens repetidos deve retornar todas as entradas separadas" computerName="AMND" duration="00:00:00.0020864" startTime="2026-01-09T14:56:49.1058161-03:00" endTime="2026-01-09T14:56:49.1058163-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="40760a19-a987-49dd-886d-29c6ecec24f1">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected result.Success to be True, but found False.</Message>
+          <StackTrace>   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)&#xD;
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)&#xD;
+   at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)&#xD;
+   at FluentAssertions.Primitives.BooleanAssertions`1.BeTrue(String because, Object[] becauseArgs)&#xD;
+   at FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests.Handle_PedidoWithRepeatedItems_ShouldReturnItemsIndividually() in D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Queries\GetPedidoByIdQueryHandlerTests.cs:line 191&#xD;
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="953d302c-b8b6-4e4c-8ff5-9ae8f582e132" testId="00312bfd-bbb3-29dd-6b3f-6f33a090f53c" testName="Pedido.Tests.Domain.Shared.Entities.EntityTests.Constructor_ShouldInitializeIdAndCreatedAt" computerName="AMND" duration="00:00:00.0004166" startTime="2026-01-09T14:56:49.0648776-03:00" endTime="2026-01-09T14:56:49.0648777-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="953d302c-b8b6-4e4c-8ff5-9ae8f582e132" />
+    <UnitTestResult executionId="89efac14-ef54-4143-bbf1-4cb686073e14" testId="fc76700d-a4c2-8054-cf92-5ca2ced0bc31" testName="Pedido.Tests.Domain.PedidoTests.Create_WithValidData_ShouldInstantiateOrder" computerName="AMND" duration="00:00:00.0009374" startTime="2026-01-09T14:56:49.0697773-03:00" endTime="2026-01-09T14:56:49.0697774-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="89efac14-ef54-4143-bbf1-4cb686073e14" />
+    <UnitTestResult executionId="bd35ff9c-c7e9-4b07-963d-db04e86253a7" testId="b0ab2a17-0b34-6bdd-59f0-9954a0d07eb4" testName="ValueObject: GetHashCode trata valores nulos sem erro" computerName="AMND" duration="00:00:00.0100153" startTime="2026-01-09T14:56:49.0579037-03:00" endTime="2026-01-09T14:56:49.0579038-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd35ff9c-c7e9-4b07-963d-db04e86253a7" />
+    <UnitTestResult executionId="31dcf52c-7c8b-4954-915c-9a7b6038b324" testId="71446488-2da7-694f-eae3-6af7aadae016" testName="Pedido.Tests.Domain.PedidoTests.UpdateStatus_ShouldAllowValidTransitions_AndThrowOnInvalid" computerName="AMND" duration="00:00:00.0016779" startTime="2026-01-09T14:56:49.0730766-03:00" endTime="2026-01-09T14:56:49.0730767-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="31dcf52c-7c8b-4954-915c-9a7b6038b324" />
+    <UnitTestResult executionId="dc473c64-8ebe-4ca6-b16f-e1819e43304f" testId="c4a77122-0ec5-b171-3569-28817b23aead" testName="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests.DomainException_ToString_ShouldIncludeMessage" computerName="AMND" duration="00:00:00.0004360" startTime="2026-01-09T14:56:49.0639018-03:00" endTime="2026-01-09T14:56:49.0639018-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dc473c64-8ebe-4ca6-b16f-e1819e43304f" />
+    <UnitTestResult executionId="ece9fceb-c905-42b1-9f28-6be154165009" testId="a1f3920d-e932-fa67-b501-9c33e998c8f4" testName="Pedido.Tests.Domain.PedidoTests.CalculateTotalPrice_WithMultipleItems_ShouldBeCorrect" computerName="AMND" duration="00:00:00.0001566" startTime="2026-01-09T14:56:49.0632267-03:00" endTime="2026-01-09T14:56:49.0632267-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ece9fceb-c905-42b1-9f28-6be154165009" />
+    <UnitTestResult executionId="19d0d5bb-b697-44df-938c-d57f1ab5b71a" testId="740cd82d-1fe6-f30c-9771-e187f0d96ece" testName="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithInvalidCharacters_ShouldThrowException(invalidName: &quot;Maria@Silva&quot;)" computerName="AMND" duration="00:00:00.0001427" startTime="2026-01-09T14:56:49.0701256-03:00" endTime="2026-01-09T14:56:49.0701257-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19d0d5bb-b697-44df-938c-d57f1ab5b71a" />
+    <UnitTestResult executionId="140885f4-7001-4941-a582-cd65047ce2ca" testId="d3e134c8-8bcc-0fd7-3fcd-e10266568efe" testName="Pedido.Tests.Domain.PedidoItemTests.Create_WithZeroQuantity_ShouldThrowException" computerName="AMND" duration="00:00:00.0167973" startTime="2026-01-09T14:56:49.0675178-03:00" endTime="2026-01-09T14:56:49.0675178-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="140885f4-7001-4941-a582-cd65047ce2ca" />
+    <UnitTestResult executionId="b85c6d12-54f9-429a-ad38-a1fe1c1fad72" testId="776d41e9-e668-72ba-dbd4-0bd55b3b3733" testName="Pedido.Tests.Domain.PedidoTests.AddItem_WithNullItem_ShouldThrowException" computerName="AMND" duration="00:00:00.0004424" startTime="2026-01-09T14:56:49.0732537-03:00" endTime="2026-01-09T14:56:49.0732538-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b85c6d12-54f9-429a-ad38-a1fe1c1fad72" />
+    <UnitTestResult executionId="d1eb8cd5-dad7-442b-9788-714951f47c16" testId="25cd6c52-fb65-ef57-302b-1e80329792a4" testName="Exceção no repositório deve ser capturada e retornada como erro" computerName="AMND" duration="00:00:00.0014248" startTime="2026-01-09T14:56:49.1018112-03:00" endTime="2026-01-09T14:56:49.1018112-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1eb8cd5-dad7-442b-9788-714951f47c16" />
+    <UnitTestResult executionId="d139898e-e4e4-4431-b439-07c6a22c92d9" testId="fe8612e5-30d9-d8ce-f0d9-c6b5046a3612" testName="ValueObject: Equals retorna false para valores diferentes" computerName="AMND" duration="00:00:00.0001235" startTime="2026-01-09T14:56:49.0663430-03:00" endTime="2026-01-09T14:56:49.0663430-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d139898e-e4e4-4431-b439-07c6a22c92d9" />
+    <UnitTestResult executionId="8e6a34d5-2b3d-4b5f-ba7d-d31168944ceb" testId="4db0cb56-f5e0-2030-def2-2955e4d2a12c" testName="Comando com lista de itens nula deve gerar erro" computerName="AMND" duration="00:00:00.0002623" startTime="2026-01-09T14:56:49.0751252-03:00" endTime="2026-01-09T14:56:49.0751252-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8e6a34d5-2b3d-4b5f-ba7d-d31168944ceb" />
+    <UnitTestResult executionId="c9b586ac-ef2d-4453-90e5-de470a66d0af" testId="84dcf0cd-47e2-601b-41c8-a0774f20ce09" testName="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithNameContainingHyphen_ShouldNormalizeCorrectly" computerName="AMND" duration="00:00:00.0000800" startTime="2026-01-09T14:56:49.0717669-03:00" endTime="2026-01-09T14:56:49.0717670-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9b586ac-ef2d-4453-90e5-de470a66d0af" />
+    <UnitTestResult executionId="3ad95083-0ad8-4d67-9039-c8758bb5ea71" testId="59cf9b2d-6356-2c09-0422-5bb0ab28c61c" testName="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithInvalidPageNumber_ShouldUseDefaultPageNumber" computerName="AMND" duration="00:00:00.0006677" startTime="2026-01-09T14:56:49.1066598-03:00" endTime="2026-01-09T14:56:49.1066598-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3ad95083-0ad8-4d67-9039-c8758bb5ea71" />
+    <UnitTestResult executionId="fab667c4-d34a-418d-ad1c-5ccdd348576e" testId="c4b56462-39f6-0477-2cc6-273d4bbc860f" testName="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithInvalidPageSize_ShouldUseDefaultPageSize" computerName="AMND" duration="00:00:00.0007788" startTime="2026-01-09T14:56:49.0764296-03:00" endTime="2026-01-09T14:56:49.0764297-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fab667c4-d34a-418d-ad1c-5ccdd348576e" />
+    <UnitTestResult executionId="ca76184d-ef26-4238-9b32-2323784f09a3" testId="9865e98d-45b5-19f9-218b-f8b37efd3b7e" testName="Verifica que múltiplas instâncias com a mesma mensagem são independentes" computerName="AMND" duration="00:00:00.0001199" startTime="2026-01-09T14:56:49.0628835-03:00" endTime="2026-01-09T14:56:49.0628835-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ca76184d-ef26-4238-9b32-2323784f09a3" />
+    <UnitTestResult executionId="66c40cdc-b360-48fd-bf96-bf76d67d4283" testId="45921083-d6d0-95b9-dc48-53be127b5fd3" testName="Pedido.Tests.Domain.Shared.Entities.EntityTests.Equals_WithDifferentId_ShouldReturnFalse" computerName="AMND" duration="00:00:00.0000964" startTime="2026-01-09T14:56:49.0656574-03:00" endTime="2026-01-09T14:56:49.0656575-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66c40cdc-b360-48fd-bf96-bf76d67d4283" />
+    <UnitTestResult executionId="d6947ebc-d0cf-4078-8eeb-f84fb4664dae" testId="d78237b2-bd56-4752-a360-06144247a502" testName="Pedido.Tests.Infrastructure.Repositories.PedidoRepositoryTests.AddPedido_ShouldPersistInDatabase" computerName="AMND" duration="00:00:00.3419746" startTime="2026-01-09T14:56:49.3695747-03:00" endTime="2026-01-09T14:56:49.3695749-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d6947ebc-d0cf-4078-8eeb-f84fb4664dae" />
+    <UnitTestResult executionId="0f9b4755-0636-4cb3-a031-39c5393fa2b3" testId="9826b18f-846e-0c86-a4e4-6d2f1d9f20af" testName="Pedido.Tests.Domain.PedidoTests.RemoveItem_WhenExistsAndPending_ShouldRemoveAndUpdateTotal" computerName="AMND" duration="00:00:00.0004877" startTime="2026-01-09T14:56:49.0738186-03:00" endTime="2026-01-09T14:56:49.0738186-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f9b4755-0636-4cb3-a031-39c5393fa2b3" />
+    <UnitTestResult executionId="6233bcac-5730-41fb-89e5-1a1d05239a40" testId="f587871a-4eb0-fdcb-f0e3-c65240c9ed52" testName="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithEmptyOrNullOrWhitespace_ShouldThrowException(invalidName: &quot;&quot;)" computerName="AMND" duration="00:00:00.0001321" startTime="2026-01-09T14:56:49.0690616-03:00" endTime="2026-01-09T14:56:49.0690616-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6233bcac-5730-41fb-89e5-1a1d05239a40" />
+    <UnitTestResult executionId="264e5730-d03d-4afe-a54f-fcffa12b4ad5" testId="1e162fc7-2b92-b410-96b0-1ee017c97c71" testName="Pedido.Tests.Domain.Shared.Entities.EntityTests.OperatorEquals_WithSameId_ShouldReturnTrue" computerName="AMND" duration="00:00:00.0001051" startTime="2026-01-09T14:56:49.0661226-03:00" endTime="2026-01-09T14:56:49.0661226-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="264e5730-d03d-4afe-a54f-fcffa12b4ad5" />
+    <UnitTestResult executionId="97c5a792-dab9-411f-a117-08b535d14398" testId="8d1d5137-e079-7f8a-9041-001b74f1ffe5" testName="Pedido.Tests.Domain.PedidoTests.AddItem_WhenPending_ShouldAddItemAndUpdateTotal" computerName="AMND" duration="00:00:00.0010385" startTime="2026-01-09T14:56:49.0627887-03:00" endTime="2026-01-09T14:56:49.0627887-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="97c5a792-dab9-411f-a117-08b535d14398" />
+    <UnitTestResult executionId="1c75082e-1c77-45c3-b425-472f37b83015" testId="7a05a912-462b-1c72-1de9-b147e7ac0de8" testName="Pedido.Tests.Domain.Shared.Entities.EntityTests.GetBrasilDateTime_ShouldReturnCurrentDateTime" computerName="AMND" duration="00:00:00.0000907" startTime="2026-01-09T14:56:49.0612721-03:00" endTime="2026-01-09T14:56:49.0612721-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1c75082e-1c77-45c3-b425-472f37b83015" />
+    <UnitTestResult executionId="cd6bb32d-b5a8-4c30-96d3-98b21e923f0a" testId="342d2c03-150c-dbc2-2aaa-649c707124c2" testName="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithInvalidCharacters_ShouldThrowException(invalidName: &quot;Ana#Maria&quot;)" computerName="AMND" duration="00:00:00.0002563" startTime="2026-01-09T14:56:49.0695217-03:00" endTime="2026-01-09T14:56:49.0695217-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cd6bb32d-b5a8-4c30-96d3-98b21e923f0a" />
+    <UnitTestResult executionId="945843e4-bfa5-4d68-bf46-5392b8ee09d1" testId="097b924b-d760-4d2a-968c-744fb13ba8cd" testName="Pedido.Tests.Domain.PedidoItemTests.Create_WithValidData_ShouldCreateOrderItem" computerName="AMND" duration="00:00:00.0002023" startTime="2026-01-09T14:56:49.0708506-03:00" endTime="2026-01-09T14:56:49.0708507-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="945843e4-bfa5-4d68-bf46-5392b8ee09d1" />
+    <UnitTestResult executionId="fce956df-6cc9-4e8f-8dc7-be31794b85f8" testId="f298f152-f5ee-35c1-51a7-f491deb003d4" testName="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithLowerCaseName_ShouldCapitalizeFirstLetters" computerName="AMND" duration="00:00:00.0000892" startTime="2026-01-09T14:56:49.0704794-03:00" endTime="2026-01-09T14:56:49.0704795-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fce956df-6cc9-4e8f-8dc7-be31794b85f8" />
+    <UnitTestResult executionId="da5477b0-2946-426c-b932-a496d5641c52" testId="076b43f9-d32f-87d3-96b6-a01ee3d95a44" testName="Verifica comportamento com inner exception nula" computerName="AMND" duration="00:00:00.0001168" startTime="2026-01-09T14:56:49.0626150-03:00" endTime="2026-01-09T14:56:49.0626150-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da5477b0-2946-426c-b932-a496d5641c52" />
+    <UnitTestResult executionId="3aebc2b1-db00-4170-af4a-08c8d51d9f66" testId="8ef189bc-672c-a1df-fe22-0fd92e605d30" testName="ValueObject: Equals retorna false para null" computerName="AMND" duration="00:00:00.0000539" startTime="2026-01-09T14:56:49.0672308-03:00" endTime="2026-01-09T14:56:49.0672309-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3aebc2b1-db00-4170-af4a-08c8d51d9f66" />
+    <UnitTestResult executionId="1f1e4dbd-0d09-4856-8e67-84a9df5cea91" testId="c3c18ec4-ad28-8f1d-32b8-71ddd885573d" testName="Pedido.Tests.Domain.Customers.Exceptions.ClienteDomainExceptionTests.Constructor_WithMessageAndInnerException_ShouldSetBothProperties" computerName="AMND" duration="00:00:00.0006142" startTime="2026-01-09T14:56:49.0619689-03:00" endTime="2026-01-09T14:56:49.0619690-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f1e4dbd-0d09-4856-8e67-84a9df5cea91" />
+    <UnitTestResult executionId="b971c6f7-c8ca-4dd7-8637-5945a7f6ddeb" testId="e266d8cc-9c50-ce69-7629-255ee6c65219" testName="Comando com lista de itens vazia deve gerar erro" computerName="AMND" duration="00:00:00.0010653" startTime="2026-01-09T14:56:49.0743353-03:00" endTime="2026-01-09T14:56:49.0743353-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b971c6f7-c8ca-4dd7-8637-5945a7f6ddeb" />
+    <UnitTestResult executionId="88979288-c5aa-4071-9738-9dbb0e29a2f0" testId="899ae2b6-cb7c-cf88-50ce-ad65d7985763" testName="Item com ProdutoId vazio deve gerar erro" computerName="AMND" duration="00:00:00.0006315" startTime="2026-01-09T14:56:49.0749313-03:00" endTime="2026-01-09T14:56:49.0749314-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="88979288-c5aa-4071-9738-9dbb0e29a2f0" />
+    <UnitTestResult executionId="1ac25a35-9ebf-4ce0-9207-c1c2645dbd29" testId="cbe3267a-76e8-72e6-8f68-d6def64847b8" testName="Pedido inexistente deve retornar erro de não encontrado" computerName="AMND" duration="00:00:00.0008885" startTime="2026-01-09T14:56:49.1067524-03:00" endTime="2026-01-09T14:56:49.1067524-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ac25a35-9ebf-4ce0-9207-c1c2645dbd29" />
+    <UnitTestResult executionId="82717310-e673-47e7-a41c-9470c11e76f3" testId="3a7d6490-fde3-fd1b-5b5e-ddff6152d4c5" testName="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests.DomainException_InnerExceptionNull_ShouldNotFail" computerName="AMND" duration="00:00:00.0000742" startTime="2026-01-09T14:56:49.0649772-03:00" endTime="2026-01-09T14:56:49.0649773-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82717310-e673-47e7-a41c-9470c11e76f3" />
+    <UnitTestResult executionId="4fd219ef-e332-4216-9ff0-5067972fd8cf" testId="603f2caa-8379-53a4-bfae-51d92b8d2714" testName="Pedido.Tests.Domain.PedidoTests.RemoveItem_WhenNotPending_ShouldThrowException" computerName="AMND" duration="00:00:00.0010449" startTime="2026-01-09T14:56:49.0712591-03:00" endTime="2026-01-09T14:56:49.0712591-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4fd219ef-e332-4216-9ff0-5067972fd8cf" />
+    <UnitTestResult executionId="60d8c21e-847d-41fd-8ba1-ce216c2cf434" testId="9552af16-0109-4bb3-70a9-7e276e1c9d3d" testName="Pedido.Tests.Domain.PedidoItemTests.Create_WithZeroUnitPrice_ShouldThrowException" computerName="AMND" duration="00:00:00.0004460" startTime="2026-01-09T14:56:49.0706955-03:00" endTime="2026-01-09T14:56:49.0706955-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60d8c21e-847d-41fd-8ba1-ce216c2cf434" />
+    <UnitTestResult executionId="3e2afd7e-2d61-45ca-b780-f49c097d1872" testId="71f9d07e-e6b5-0cda-bd9d-3fc588a6b440" testName="ClienteTests.CriarCliente_Valido_DeveFuncionar" computerName="AMND" duration="00:00:00.0104115" startTime="2026-01-09T14:56:49.0528444-03:00" endTime="2026-01-09T14:56:49.0528444-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e2afd7e-2d61-45ca-b780-f49c097d1872" />
+    <UnitTestResult executionId="fcdd697b-e5d8-4d46-818a-3a881cceb294" testId="9405aab0-73de-ad14-7038-7cd5ba239e4c" testName="Itens com quantidade inválida devem gerar erro(quantidade: 0)" computerName="AMND" duration="00:00:00.0006862" startTime="2026-01-09T14:56:49.0752991-03:00" endTime="2026-01-09T14:56:49.0752991-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fcdd697b-e5d8-4d46-818a-3a881cceb294" />
+    <UnitTestResult executionId="cb6e0031-9b43-49cb-a505-44ab80b780a1" testId="a90f072e-b50f-3668-4ac7-8645dc4af94e" testName="Deve inicializar exceção com mensagem customizada" computerName="AMND" duration="00:00:00.0103208" startTime="2026-01-09T14:56:49.0477908-03:00" endTime="2026-01-09T14:56:49.0478018-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb6e0031-9b43-49cb-a505-44ab80b780a1" />
+    <UnitTestResult executionId="86c0bdd4-17cd-4bf2-89b6-eae80a4987c7" testId="1887bae3-50f7-8668-e83a-5e7f8d82d350" testName="ClienteId nulo é permitido para pedidos anônimos" computerName="AMND" duration="00:00:00.0003709" startTime="2026-01-09T14:56:49.0758867-03:00" endTime="2026-01-09T14:56:49.0758867-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86c0bdd4-17cd-4bf2-89b6-eae80a4987c7" />
+    <UnitTestResult executionId="41c25f1d-20d8-4f57-970b-df5ce1551432" testId="0d2420b1-0128-c652-a09e-3e71115a1dcd" testName="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithClienteIdFilter_ShouldReturnFilteredPedidos" computerName="AMND" duration="00:00:00.0022580" startTime="2026-01-09T14:56:49.1064190-03:00" endTime="2026-01-09T14:56:49.1064191-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41c25f1d-20d8-4f57-970b-df5ce1551432">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected result.Pedidos to contain 1 item(s), but found 0: {empty}.</Message>
+          <StackTrace>   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)&#xD;
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)&#xD;
+   at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)&#xD;
+   at FluentAssertions.Collections.GenericCollectionAssertions`3.HaveCount(Int32 expected, String because, Object[] becauseArgs)&#xD;
+   at Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithClienteIdFilter_ShouldReturnFilteredPedidos() in D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Queries\GetPedidosQueryHandlerTests.cs:line 92&#xD;
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="08a6fd7c-5af4-4f01-8f3d-7b51b5437b77" testId="7b9adf1c-77a7-d874-507a-3dfffa3e708c" testName="Pedido.Tests.Domain.PedidoItemTests.Create_WithEmptyProductId_ShouldThrowException" computerName="AMND" duration="00:00:00.0003830" startTime="2026-01-09T14:56:49.0696312-03:00" endTime="2026-01-09T14:56:49.0696312-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="08a6fd7c-5af4-4f01-8f3d-7b51b5437b77" />
+    <UnitTestResult executionId="c251710d-0fdc-40e3-8163-464ec750100d" testId="ce86aacb-725d-4f8f-61c6-17d4e6632346" testName="Pedido.Tests.Domain.PedidoItemTests.Create_WithEmptyProductName_ShouldThrowException" computerName="AMND" duration="00:00:00.0003414" startTime="2026-01-09T14:56:49.0711956-03:00" endTime="2026-01-09T14:56:49.0711957-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c251710d-0fdc-40e3-8163-464ec750100d" />
+    <UnitTestResult executionId="36918ec2-1a34-46bc-b304-3dfc924c822c" testId="87ef9a0f-2db6-a2cc-d2b7-f23504cedf11" testName="Pedido.Tests.Domain.PedidoTests.AddItem_WhenNotPending_ShouldThrowException" computerName="AMND" duration="00:00:00.0004762" startTime="2026-01-09T14:56:49.0734312-03:00" endTime="2026-01-09T14:56:49.0734313-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36918ec2-1a34-46bc-b304-3dfc924c822c" />
+    <UnitTestResult executionId="8f0a062a-fc34-4fbc-b2e0-532bc847907e" testId="d3ae0e70-bf9c-86b7-f532-bf58a3819eda" testName="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithNameTooLong_ShouldThrowException" computerName="AMND" duration="00:00:00.0004447" startTime="2026-01-09T14:56:49.0709657-03:00" endTime="2026-01-09T14:56:49.0709658-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f0a062a-fc34-4fbc-b2e0-532bc847907e" />
+    <UnitTestResult executionId="84475777-80df-49c1-8f60-3631ff1f8f57" testId="877d398c-8a33-7399-7d53-2a91cb86543a" testName="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithNameContainingAccents_ShouldCapitalizeProperly" computerName="AMND" duration="00:00:00.0001301" startTime="2026-01-09T14:56:49.0710829-03:00" endTime="2026-01-09T14:56:49.0710829-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="84475777-80df-49c1-8f60-3631ff1f8f57" />
+    <UnitTestResult executionId="1a1b81b6-b7e7-4506-b4ff-bc0924fb5373" testId="0918451a-0f00-3500-fe34-9547d0b759f2" testName="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests.DomainException_WithMessageAndInnerException_ShouldContainInner" computerName="AMND" duration="00:00:00.0000749" startTime="2026-01-09T14:56:49.0660208-03:00" endTime="2026-01-09T14:56:49.0660209-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a1b81b6-b7e7-4506-b4ff-bc0924fb5373" />
+    <UnitTestResult executionId="0273e2c7-093d-46be-8755-778d69fbf163" testId="da195637-92f6-ce8b-ee2c-72aa44c1f62b" testName="Pedido.Tests.Domain.PedidoItemTests.WithQuantity_WithZeroQuantity_ShouldThrowException" computerName="AMND" duration="00:00:00.0003952" startTime="2026-01-09T14:56:49.0692623-03:00" endTime="2026-01-09T14:56:49.0692624-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0273e2c7-093d-46be-8755-778d69fbf163" />
+    <UnitTestResult executionId="b1a5647b-fb9f-4cdd-84fa-34ed8634eeb5" testId="68bdee52-42d9-f905-7af3-cb461eb4fda7" testName="Deve criar exceção apenas com mensagem personalizada" computerName="AMND" duration="00:00:00.0001068" startTime="2026-01-09T14:56:49.0625151-03:00" endTime="2026-01-09T14:56:49.0625152-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1a5647b-fb9f-4cdd-84fa-34ed8634eeb5" />
+    <UnitTestResult executionId="a1197a58-df07-42ef-8908-88a48fc19a99" testId="d92733eb-b137-ca76-f0ad-7e09c4284e69" testName="Pedido.Tests.Domain.Shared.Entities.EntityTests.Equals_WithSameId_ShouldReturnTrue" computerName="AMND" duration="00:00:00.0004684" startTime="2026-01-09T14:56:49.0603478-03:00" endTime="2026-01-09T14:56:49.0603478-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1197a58-df07-42ef-8908-88a48fc19a99" />
+    <UnitTestResult executionId="d26ef483-8097-46db-93ee-2b20c302f1d1" testId="ae2dddde-e554-2bb7-a25c-64a86783ce96" testName="Vários erros podem ser detectados ao mesmo tempo" computerName="AMND" duration="00:00:00.0002842" startTime="2026-01-09T14:56:49.0756835-03:00" endTime="2026-01-09T14:56:49.0756836-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d26ef483-8097-46db-93ee-2b20c302f1d1" />
+    <UnitTestResult executionId="358c0d1d-0d0e-4054-84c3-d393638e23a7" testId="7f98ae78-9445-983c-5d66-4e1fbaa977cb" testName="Duas instâncias com a mesma mensagem devem ser independentes" computerName="AMND" duration="00:00:00.0002463" startTime="2026-01-09T14:56:49.0601620-03:00" endTime="2026-01-09T14:56:49.0601621-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="358c0d1d-0d0e-4054-84c3-d393638e23a7" />
+    <UnitTestResult executionId="a76fd379-5c7d-442d-838d-2aed82aa218c" testId="535359ea-f047-9681-8045-432cbbfaeb10" testName="Verifica comportamento com inner exception nula" computerName="AMND" duration="00:00:00.0104325" startTime="2026-01-09T14:56:49.0531243-03:00" endTime="2026-01-09T14:56:49.0531244-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a76fd379-5c7d-442d-838d-2aed82aa218c" />
+    <UnitTestResult executionId="64353df4-5fa4-4bf6-a7fc-8ae91aef0dc5" testId="a66b417d-54f3-0bdd-f904-a9e3deee984d" testName="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithNameContainingApostrophe_ShouldNormalizeCorrectly" computerName="AMND" duration="00:00:00.0000764" startTime="2026-01-09T14:56:49.0721181-03:00" endTime="2026-01-09T14:56:49.0721181-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="64353df4-5fa4-4bf6-a7fc-8ae91aef0dc5" />
+    <UnitTestResult executionId="a26ca055-5e9b-4da6-9b4f-6fa361e1ff33" testId="16977277-adc9-dc69-a066-cebe64c5fd70" testName="Pedido.Tests.Domain.Shared.Entities.EntityTests.Equals_WithDifferentType_ShouldReturnFalse" computerName="AMND" duration="00:00:00.0000927" startTime="2026-01-09T14:56:49.0665352-03:00" endTime="2026-01-09T14:56:49.0665352-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a26ca055-5e9b-4da6-9b4f-6fa361e1ff33" />
+    <UnitTestResult executionId="c631cfe4-970c-490a-8712-5b982277ccc5" testId="fa1ab2c9-986a-8993-827c-6c7ae0604177" testName="Pedido com múltiplos itens retorna todos corretamente" computerName="AMND" duration="00:00:00.0019561" startTime="2026-01-09T14:56:49.1026447-03:00" endTime="2026-01-09T14:56:49.1026448-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c631cfe4-970c-490a-8712-5b982277ccc5">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected result.Success to be True, but found False.</Message>
+          <StackTrace>   at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)&#xD;
+   at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)&#xD;
+   at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+   at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)&#xD;
+   at FluentAssertions.Primitives.BooleanAssertions`1.BeTrue(String because, Object[] becauseArgs)&#xD;
+   at FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests.Handle_PedidoWithMultipleItems_ShouldReturnAllItems() in D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Queries\GetPedidoByIdQueryHandlerTests.cs:line 143&#xD;
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="655a4a2a-2689-453b-8af7-7370766082b9" testId="192ee191-206e-71e2-3d7a-6cb19e3c1a4b" testName="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithInvalidCharacters_ShouldThrowException(invalidName: &quot;João123&quot;)" computerName="AMND" duration="00:00:00.0003899" startTime="2026-01-09T14:56:49.0694087-03:00" endTime="2026-01-09T14:56:49.0694087-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="655a4a2a-2689-453b-8af7-7370766082b9" />
+    <UnitTestResult executionId="9c747f7f-2535-4636-9a0c-17c782b000b7" testId="5cf5db5e-e36e-641f-b5f4-6c5d3259471f" testName="Pedido.Tests.Domain.Customers.Exceptions.ClienteDomainExceptionTests.Constructor_WithEmptyMessage_ShouldStillCreateException" computerName="AMND" duration="00:00:00.0100923" startTime="2026-01-09T14:56:49.0580642-03:00" endTime="2026-01-09T14:56:49.0580643-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c747f7f-2535-4636-9a0c-17c782b000b7" />
+    <UnitTestResult executionId="cc0c1fda-6a28-4d41-8dd8-22ceb1946588" testId="eec151a6-74ec-8d4e-c27f-55c57273d438" testName="Pedido.Tests.Application.DTOs.PedidoStatusDtoTests.PedidoStatusDto_ShouldSetAllProperties" computerName="AMND" duration="00:00:00.0112361" startTime="2026-01-09T14:56:49.0527015-03:00" endTime="2026-01-09T14:56:49.0527015-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cc0c1fda-6a28-4d41-8dd8-22ceb1946588" />
+    <UnitTestResult executionId="051044e9-4325-419f-9958-1c97abe63934" testId="30c26201-43db-d850-112e-ac924070b773" testName="Pedido.Tests.Domain.Shared.Entities.EntityTests.OperatorNotEquals_WithDifferentEntities_ShouldReturnTrue" computerName="AMND" duration="00:00:00.0001296" startTime="2026-01-09T14:56:49.0633997-03:00" endTime="2026-01-09T14:56:49.0633997-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="051044e9-4325-419f-9958-1c97abe63934" />
+    <UnitTestResult executionId="f41531f1-bf9a-477c-a513-40ccfbaf5f7f" testId="42d78a6a-5b23-26b6-44b5-3d18cb82e39d" testName="ValueObject: operadores == e != funcionam corretamente" computerName="AMND" duration="00:00:00.0004845" startTime="2026-01-09T14:56:49.0658376-03:00" endTime="2026-01-09T14:56:49.0658377-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f41531f1-bf9a-477c-a513-40ccfbaf5f7f" />
+    <UnitTestResult executionId="fb848c78-1892-446e-af3b-1637d70e8945" testId="e87883aa-ef03-f3c8-73f9-2263e01cf5d3" testName="ClienteId vazio deve gerar erro de validação" computerName="AMND" duration="00:00:00.0341290" startTime="2026-01-09T14:56:49.0741129-03:00" endTime="2026-01-09T14:56:49.0741129-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb848c78-1892-446e-af3b-1637d70e8945" />
+    <UnitTestResult executionId="1aa3bdec-7859-4fe8-978c-ea172cd77bbc" testId="8170a580-f4dc-5cb9-3ec0-9e1bf51b117d" testName="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests.DomainException_WithMessage_ShouldInitializeCorrectly" computerName="AMND" duration="00:00:00.0001446" startTime="2026-01-09T14:56:49.0599710-03:00" endTime="2026-01-09T14:56:49.0599711-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1aa3bdec-7859-4fe8-978c-ea172cd77bbc" />
+    <UnitTestResult executionId="469ba8df-7d13-4d3c-92e9-32ee4b38f51b" testId="2642aadc-c2a9-f0cc-f8e6-80a379c2a45c" testName="ValueObject: Equals retorna false para tipos diferentes" computerName="AMND" duration="00:00:00.0001073" startTime="2026-01-09T14:56:49.0614678-03:00" endTime="2026-01-09T14:56:49.0614679-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="469ba8df-7d13-4d3c-92e9-32ee4b38f51b" />
+    <UnitTestResult executionId="e7920014-af65-4c27-9805-409b306a9968" testId="e41551d0-d2c1-f568-5dd1-9a34f12024ec" testName="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithNameContainingMixedCasesAndSpaces_ShouldNormalizeCorrectly" computerName="AMND" duration="00:00:00.0001241" startTime="2026-01-09T14:56:49.0729646-03:00" endTime="2026-01-09T14:56:49.0729646-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7920014-af65-4c27-9805-409b306a9968" />
+    <UnitTestResult executionId="07a0335d-c0d5-4c35-97c6-489488ccfe2e" testId="846c8519-7768-5cf4-9eb0-8beb80d7f080" testName="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithPageSizeGreaterThan100_ShouldCapAt100" computerName="AMND" duration="00:00:00.0474324" startTime="2026-01-09T14:56:49.0762266-03:00" endTime="2026-01-09T14:56:49.0762267-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="07a0335d-c0d5-4c35-97c6-489488ccfe2e" />
+    <UnitTestResult executionId="cf309a79-684b-4bb4-9cce-0473bd486c7e" testId="726d7e09-f8d6-8403-f1f6-6c632b4525be" testName="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests.DomainException_WithNestedInnerExceptions_ShouldMaintainHierarchy" computerName="AMND" duration="00:00:00.0006833" startTime="2026-01-09T14:56:49.0621567-03:00" endTime="2026-01-09T14:56:49.0621567-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf309a79-684b-4bb4-9cce-0473bd486c7e" />
+    <UnitTestResult executionId="3a9ef8e0-8e3d-40ab-953f-795b3fb832b5" testId="a451eefb-57f1-434c-4317-39572b912806" testName="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithNameTooShort_ShouldThrowException" computerName="AMND" duration="00:00:00.0004278" startTime="2026-01-09T14:56:49.0725718-03:00" endTime="2026-01-09T14:56:49.0725718-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a9ef8e0-8e3d-40ab-953f-795b3fb832b5" />
+    <UnitTestResult executionId="f0b51b28-1569-4548-ba1b-0ae374920c4e" testId="6cca14f7-6d9e-1de2-7c18-153de7a0f9bc" testName="ValueObject: HashCode diferente para valores distintos" computerName="AMND" duration="00:00:00.0000733" startTime="2026-01-09T14:56:49.0674201-03:00" endTime="2026-01-09T14:56:49.0674201-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0b51b28-1569-4548-ba1b-0ae374920c4e" />
+    <UnitTestResult executionId="66850d5a-fd7b-4c85-ae2f-5ad73090f2df" testId="14e0a303-1983-9903-7c89-c998f80ab6ff" testName="Pedido.Tests.Application.DTOs.PedidoStatusDtoTests.PedidoStatusDto_ShouldInitializeWithDefaultValues" computerName="AMND" duration="00:00:00.0004623" startTime="2026-01-09T14:56:49.0604409-03:00" endTime="2026-01-09T14:56:49.0604409-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66850d5a-fd7b-4c85-ae2f-5ad73090f2df" />
+    <UnitTestResult executionId="dabf02ce-7a64-4ff9-af9c-572e06854477" testId="fab55944-225d-c6b4-449d-6d6f40088999" testName="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests.DomainException_MultipleInstances_WithSameMessage_ShouldHaveDifferentReferences" computerName="AMND" duration="00:00:00.0002412" startTime="2026-01-09T14:56:49.0644938-03:00" endTime="2026-01-09T14:56:49.0644938-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dabf02ce-7a64-4ff9-af9c-572e06854477" />
+    <UnitTestResult executionId="f1116311-0467-4c8f-abde-48a5902a40fd" testId="5e85402d-74c3-dbef-8dce-58b9100cc666" testName="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.ToString_ShouldReturnTheNameValue" computerName="AMND" duration="00:00:00.0000918" startTime="2026-01-09T14:56:49.0722329-03:00" endTime="2026-01-09T14:56:49.0722329-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f1116311-0467-4c8f-abde-48a5902a40fd" />
+    <UnitTestResult executionId="c9218ab0-5251-41c6-84a0-5597aa61085f" testId="85248c5c-883d-552d-8003-932ec6c6de36" testName="Pedido.Tests.Domain.Shared.Entities.EntityTests.SetUpdatedAt_ShouldSetUpdatedAtProperty" computerName="AMND" duration="00:00:00.0102948" startTime="2026-01-09T14:56:49.0522309-03:00" endTime="2026-01-09T14:56:49.0522310-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9218ab0-5251-41c6-84a0-5597aa61085f" />
+    <UnitTestResult executionId="7321b4a8-990a-42a7-b49d-f3cacf31ad68" testId="7f5d382e-7b57-49d1-8261-586053e3e8f5" testName="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithInvalidStatus_ShouldIgnoreStatusFilter" computerName="AMND" duration="00:00:00.0012783" startTime="2026-01-09T14:56:49.1021315-03:00" endTime="2026-01-09T14:56:49.1021315-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7321b4a8-990a-42a7-b49d-f3cacf31ad68" />
+    <UnitTestResult executionId="c910e7bd-a1bc-46a8-b1ab-b217b8a152f5" testId="da703b66-50d6-367a-f4c9-deaaa2e9e80b" testName="Pedido.Tests.Domain.Customers.Exceptions.ClienteDomainExceptionTests.Constructor_WithMessage_ShouldSetMessageProperty" computerName="AMND" duration="00:00:00.0001289" startTime="2026-01-09T14:56:49.0597679-03:00" endTime="2026-01-09T14:56:49.0597680-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c910e7bd-a1bc-46a8-b1ab-b217b8a152f5" />
+    <UnitTestResult executionId="c5355d79-120a-4e65-a9a7-d25598fefab3" testId="e0ebf69e-8d15-06a1-291e-296737c5d144" testName="ValueObject: Equals funciona corretamente com null em propriedades" computerName="AMND" duration="00:00:00.0004412" startTime="2026-01-09T14:56:49.0605367-03:00" endTime="2026-01-09T14:56:49.0605367-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5355d79-120a-4e65-a9a7-d25598fefab3" />
+    <UnitTestResult executionId="43e1bc03-9f58-4435-ab97-1e53e6106b54" testId="63135861-0308-4a54-b8cb-7f2a7dfa11e4" testName="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithValidName_ShouldReturnNameObject" computerName="AMND" duration="00:00:00.0001346" startTime="2026-01-09T14:56:49.0703109-03:00" endTime="2026-01-09T14:56:49.0703109-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43e1bc03-9f58-4435-ab97-1e53e6106b54" />
+    <UnitTestResult executionId="39297ec6-d2e3-46b3-928f-758d766e08ae" testId="ff579c98-913a-009d-ccb6-5115e6c885e6" testName="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithEmptyOrNullOrWhitespace_ShouldThrowException(invalidName: null)" computerName="AMND" duration="00:00:00.0167394" startTime="2026-01-09T14:56:49.0676031-03:00" endTime="2026-01-09T14:56:49.0676032-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39297ec6-d2e3-46b3-928f-758d766e08ae" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithEmptyOrNullOrWhitespace_ShouldThrowException(invalidName: &quot;   &quot;)" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="ced99850-72ad-f2ac-08a1-ca01cf995529">
+      <Execution id="db07126e-a674-46a6-bb47-b805c9445da6" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithEmptyOrNullOrWhitespace_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithInvalidPageSize_ShouldUseDefaultPageSize" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="c4b56462-39f6-0477-2cc6-273d4bbc860f">
+      <Execution id="fab667c4-d34a-418d-ad1c-5ccdd348576e" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests" name="Handle_WithInvalidPageSize_ShouldUseDefaultPageSize" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoTests.SetQrCodeOrPreferenceId_WhenEmpty_ShouldThrowException" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="b966839a-c3fb-7fc0-aab7-083554a4e36a">
+      <Execution id="610587f3-6e42-46c7-9dbe-7930cfb4a449" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoTests" name="SetQrCodeOrPreferenceId_WhenEmpty_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.ImplicitConversion_ShouldReturnStringValue" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="3bf28ae0-ee16-367c-6753-02fce166cd35">
+      <Execution id="846769ad-2553-4e72-8790-053aa5973f05" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="ImplicitConversion_ShouldReturnStringValue" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithInvalidCharacters_ShouldThrowException(invalidName: &quot;João123&quot;)" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="192ee191-206e-71e2-3d7a-6cb19e3c1a4b">
+      <Execution id="655a4a2a-2689-453b-8af7-7370766082b9" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithInvalidCharacters_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithNameContainingMultipleSpaces_ShouldTrimAndCapitalize" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="d7efb34f-506f-1c13-a926-80d9f29c5eae">
+      <Execution id="f8773c2d-24ee-4368-86fd-544ca80c533e" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithNameContainingMultipleSpaces_ShouldTrimAndCapitalize" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Entities.EntityTests.GetBrasilDateTime_ShouldReturnCurrentDateTime" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="7a05a912-462b-1c72-1de9-b147e7ac0de8">
+      <Execution id="1c75082e-1c77-45c3-b425-472f37b83015" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="GetBrasilDateTime_ShouldReturnCurrentDateTime" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Application.DTOs.PedidoStatusDtoTests.PedidoStatusDto_ShouldSetAllProperties" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="eec151a6-74ec-8d4e-c27f-55c57273d438">
+      <Execution id="cc0c1fda-6a28-4d41-8dd8-22ceb1946588" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.DTOs.PedidoStatusDtoTests" name="PedidoStatusDto_ShouldSetAllProperties" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoTests.Create_WithoutClient_ShouldAllowOrderWithNullClienteId" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="35a615d6-5b09-7d8b-7f69-4f7c5b9d01dd">
+      <Execution id="f4594fdf-d2e5-495b-8255-0e88997a79ce" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoTests" name="Create_WithoutClient_ShouldAllowOrderWithNullClienteId" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests.DomainException_ToString_ShouldIncludeMessage" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="c4a77122-0ec5-b171-3569-28817b23aead">
+      <Execution id="dc473c64-8ebe-4ca6-b16f-e1819e43304f" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests" name="DomainException_ToString_ShouldIncludeMessage" />
+    </UnitTest>
+    <UnitTest name="Comando válido não deve gerar erros de validação" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="93d50f6f-add2-898b-6dab-2d2c4faf9fd1">
+      <Execution id="505ec9f0-46a2-4ef2-920d-ae52c459653f" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests" name="Validate_ValidCommand_ShouldNotHaveErrors" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.Exceptions.ClienteDomainExceptionTests.Constructor_WithMessage_ShouldSetMessageProperty" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="da703b66-50d6-367a-f4c9-deaaa2e9e80b">
+      <Execution id="c910e7bd-a1bc-46a8-b1ab-b217b8a152f5" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.Exceptions.ClienteDomainExceptionTests" name="Constructor_WithMessage_ShouldSetMessageProperty" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoTests.RemoveItem_WhenDoesNotExist_ShouldReturnFalse" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="8db81150-415a-bfa6-821e-e256b9613a60">
+      <Execution id="54ac2ce0-40e7-4749-997a-7e8b464acdcd" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoTests" name="RemoveItem_WhenDoesNotExist_ShouldReturnFalse" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithPageSizeGreaterThan100_ShouldCapAt100" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="846c8519-7768-5cf4-9eb0-8beb80d7f080">
+      <Execution id="07a0335d-c0d5-4c35-97c6-489488ccfe2e" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests" name="Handle_WithPageSizeGreaterThan100_ShouldCapAt100" />
+    </UnitTest>
+    <UnitTest name="ValueObject: operadores == e != funcionam corretamente" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="42d78a6a-5b23-26b6-44b5-3d18cb82e39d">
+      <Execution id="f41531f1-bf9a-477c-a513-40ccfbaf5f7f" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="Operators_ShouldBehaveCorrectly" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithNameContainingApostrophe_ShouldNormalizeCorrectly" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="a66b417d-54f3-0bdd-f904-a9e3deee984d">
+      <Execution id="64353df4-5fa4-4bf6-a7fc-8ae91aef0dc5" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithNameContainingApostrophe_ShouldNormalizeCorrectly" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoTests.SetQrCode_And_SetPreferenceId_ShouldAssignValues" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="c642a4b1-1859-7429-7958-fba1e7ae51a2">
+      <Execution id="62388c68-3022-41ef-b3da-1db40163a0cc" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoTests" name="SetQrCode_And_SetPreferenceId_ShouldAssignValues" />
+    </UnitTest>
+    <UnitTest name="Verifica comportamento com inner exception nula" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="076b43f9-d32f-87d3-96b6-a01ee3d95a44">
+      <Execution id="da5477b0-2946-426c-b932-a496d5641c52" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Common.Exceptions.ValidationExceptionTests" name="Constructor_NullInner_ShouldHandleGracefully" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoItemTests.Create_WithValidData_ShouldCreateOrderItem" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="097b924b-d760-4d2a-968c-744fb13ba8cd">
+      <Execution id="945843e4-bfa5-4d68-bf46-5392b8ee09d1" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoItemTests" name="Create_WithValidData_ShouldCreateOrderItem" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoItemTests.Create_WithZeroUnitPrice_ShouldThrowException" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="9552af16-0109-4bb3-70a9-7e276e1c9d3d">
+      <Execution id="60d8c21e-847d-41fd-8ba1-ce216c2cf434" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoItemTests" name="Create_WithZeroUnitPrice_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="Se algum item do pedido não existir, o handler deve retornar erro" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="8d21169d-a7eb-35a5-3677-6c58310b9dfa">
+      <Execution id="c68a5493-3c8b-4ee2-9a9a-3776dd3767d5" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests" name="Handle_NonExistentItem_ShouldReturnFailure" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Entities.EntityTests.OperatorEquals_WithNullAndNull_ShouldReturnTrue" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="89a74892-8793-dfb8-0d00-26d0b51c14d4">
+      <Execution id="ecbbe388-2d13-4bfe-9068-2217a76b41fd" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="OperatorEquals_WithNullAndNull_ShouldReturnTrue" />
+    </UnitTest>
+    <UnitTest name="Pedido com itens repetidos deve retornar todas as entradas separadas" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="f7761c97-2d75-9b4b-c0dd-20f056bb172b">
+      <Execution id="40760a19-a987-49dd-886d-29c6ecec24f1" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests" name="Handle_PedidoWithRepeatedItems_ShouldReturnItemsIndividually" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithClienteIdFilter_ShouldReturnFilteredPedidos" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="0d2420b1-0128-c652-a09e-3e71115a1dcd">
+      <Execution id="41c25f1d-20d8-4f57-970b-df5ce1551432" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests" name="Handle_WithClienteIdFilter_ShouldReturnFilteredPedidos" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithNameContainingHyphen_ShouldNormalizeCorrectly" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="84dcf0cd-47e2-601b-41c8-a0774f20ce09">
+      <Execution id="c9b586ac-ef2d-4453-90e5-de470a66d0af" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithNameContainingHyphen_ShouldNormalizeCorrectly" />
+    </UnitTest>
+    <UnitTest name="Pedido inexistente deve retornar erro de não encontrado" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="cbe3267a-76e8-72e6-8f68-d6def64847b8">
+      <Execution id="1ac25a35-9ebf-4ce0-9207-c1c2645dbd29" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests" name="Handle_NonExistentPedido_ShouldReturnFailure" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Entities.EntityTests.GetHashCode_ShouldReturnSameForSameId" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="7e5e52ed-f3d4-a128-aa82-94525aeda4bc">
+      <Execution id="b6333d53-9228-456b-8538-62b1f0daca9b" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="GetHashCode_ShouldReturnSameForSameId" />
+    </UnitTest>
+    <UnitTest name="ValueObject: GetHashCode trata valores nulos sem erro" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="b0ab2a17-0b34-6bdd-59f0-9954a0d07eb4">
+      <Execution id="bd35ff9c-c7e9-4b07-963d-db04e86253a7" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="GetHashCode_WithNullValue_ShouldHandleNull" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithLowerCaseName_ShouldCapitalizeFirstLetters" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="f298f152-f5ee-35c1-51a7-f491deb003d4">
+      <Execution id="fce956df-6cc9-4e8f-8dc7-be31794b85f8" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithLowerCaseName_ShouldCapitalizeFirstLetters" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Application.DTOs.PedidoStatusDtoTests.PedidoStatusDto_ShouldInitializeWithDefaultValues" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="14e0a303-1983-9903-7c89-c998f80ab6ff">
+      <Execution id="66850d5a-fd7b-4c85-ae2f-5ad73090f2df" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.DTOs.PedidoStatusDtoTests" name="PedidoStatusDto_ShouldInitializeWithDefaultValues" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests.DomainException_WithMessageAndInnerException_ShouldContainInner" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="0918451a-0f00-3500-fe34-9547d0b759f2">
+      <Execution id="1a1b81b6-b7e7-4506-b4ff-bc0924fb5373" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests" name="DomainException_WithMessageAndInnerException_ShouldContainInner" />
+    </UnitTest>
+    <UnitTest name="ValueObject: Comparação de cadeia complexa" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="93c5cc29-0eb1-d457-af4c-47e437ca2f48">
+      <Execution id="4b38387f-d7a5-4966-86e8-02a42d48ba0c" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="ComplexComparison_ShouldBehaveCorrectly" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Entities.EntityTests.Equals_WithDifferentId_ShouldReturnFalse" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="45921083-d6d0-95b9-dc48-53be127b5fd3">
+      <Execution id="66c40cdc-b360-48fd-bf96-bf76d67d4283" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="Equals_WithDifferentId_ShouldReturnFalse" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithNameContainingMixedCasesAndSpaces_ShouldNormalizeCorrectly" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="e41551d0-d2c1-f568-5dd1-9a34f12024ec">
+      <Execution id="e7920014-af65-4c27-9805-409b306a9968" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithNameContainingMixedCasesAndSpaces_ShouldNormalizeCorrectly" />
+    </UnitTest>
+    <UnitTest name="ClienteTests.CriarCliente_ComNomeInvalido_DeveLancarExcecao" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="41b64ffb-b405-d440-dcf8-6c978b2d1f88">
+      <Execution id="920e4e36-8f3c-45a1-95b1-096b17715e28" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ClienteTests" name="CriarCliente_ComNomeInvalido_DeveLancarExcecao" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoTests.RemoveItem_WhenNotPending_ShouldThrowException" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="603f2caa-8379-53a4-bfae-51d92b8d2714">
+      <Execution id="4fd219ef-e332-4216-9ff0-5067972fd8cf" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoTests" name="RemoveItem_WhenNotPending_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests.DomainException_ThrowAndCatch_ShouldPreserveType" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="6961fc83-142c-a568-e973-72d83ed1b33f">
+      <Execution id="0430c3de-df23-4ad8-b9d0-106ba5cbe37d" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests" name="DomainException_ThrowAndCatch_ShouldPreserveType" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoTests.Create_WithNoItems_ShouldThrowException" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="106e8726-691b-53c2-c695-85675d19daae">
+      <Execution id="a0d7acb0-525b-4b3c-b2d5-5558c64be32b" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoTests" name="Create_WithNoItems_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithInvalidCharacters_ShouldThrowException(invalidName: &quot;Ana#Maria&quot;)" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="342d2c03-150c-dbc2-2aaa-649c707124c2">
+      <Execution id="cd6bb32d-b5a8-4c30-96d3-98b21e923f0a" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithInvalidCharacters_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithEmptyOrNullOrWhitespace_ShouldThrowException(invalidName: null)" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="ff579c98-913a-009d-ccb6-5115e6c885e6">
+      <Execution id="39297ec6-d2e3-46b3-928f-758d766e08ae" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithEmptyOrNullOrWhitespace_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Entities.EntityTests.OperatorEquals_WithSameId_ShouldReturnTrue" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="1e162fc7-2b92-b410-96b0-1ee017c97c71">
+      <Execution id="264e5730-d03d-4afe-a54f-fcffa12b4ad5" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="OperatorEquals_WithSameId_ShouldReturnTrue" />
+    </UnitTest>
+    <UnitTest name="ValueObject: HashCode diferente para valores distintos" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="6cca14f7-6d9e-1de2-7c18-153de7a0f9bc">
+      <Execution id="f0b51b28-1569-4548-ba1b-0ae374920c4e" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="GetHashCode_WithDifferentValues_ShouldReturnDifferentHash" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Infrastructure.Repositories.PedidoRepositoryTests.AddPedido_ShouldPersistInDatabase" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="d78237b2-bd56-4752-a360-06144247a502">
+      <Execution id="d6947ebc-d0cf-4078-8eeb-f84fb4664dae" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Infrastructure.Repositories.PedidoRepositoryTests" name="AddPedido_ShouldPersistInDatabase" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Entities.EntityTests.Equals_WithDifferentType_ShouldReturnFalse" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="16977277-adc9-dc69-a066-cebe64c5fd70">
+      <Execution id="a26ca055-5e9b-4da6-9b4f-6fa361e1ff33" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="Equals_WithDifferentType_ShouldReturnFalse" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoTests.Create_WithValidData_ShouldInstantiateOrder" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="fc76700d-a4c2-8054-cf92-5ca2ced0bc31">
+      <Execution id="89efac14-ef54-4143-bbf1-4cb686073e14" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoTests" name="Create_WithValidData_ShouldInstantiateOrder" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoItemTests.Create_WithEmptyProductId_ShouldThrowException" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="7b9adf1c-77a7-d874-507a-3dfffa3e708c">
+      <Execution id="08a6fd7c-5af4-4f01-8f3d-7b51b5437b77" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoItemTests" name="Create_WithEmptyProductId_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoItemTests.WithQuantity_WithValidQuantity_ShouldReturnNewItem" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="0d1b0a21-ed04-bd08-6929-641463c7f14d">
+      <Execution id="905a7de2-98a3-4e72-b31e-bdfb59615784" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoItemTests" name="WithQuantity_WithValidQuantity_ShouldReturnNewItem" />
+    </UnitTest>
+    <UnitTest name="Verifica que múltiplas instâncias com a mesma mensagem são independentes" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="9865e98d-45b5-19f9-218b-f8b37efd3b7e">
+      <Execution id="ca76184d-ef26-4238-9b32-2323784f09a3" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Common.Exceptions.ValidationExceptionTests" name="MultipleInstances_SameMessage_ShouldBeIndependent" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests.DomainException_InnerExceptionNull_ShouldNotFail" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="3a7d6490-fde3-fd1b-5b5e-ddff6152d4c5">
+      <Execution id="82717310-e673-47e7-a41c-9470c11e76f3" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests" name="DomainException_InnerExceptionNull_ShouldNotFail" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithNameContainingAccents_ShouldCapitalizeProperly" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="877d398c-8a33-7399-7d53-2a91cb86543a">
+      <Execution id="84475777-80df-49c1-8f60-3631ff1f8f57" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithNameContainingAccents_ShouldCapitalizeProperly" />
+    </UnitTest>
+    <UnitTest name="Itens com quantidade inválida devem gerar erro(quantidade: -1)" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="a52f98b8-e8ec-ee2d-444c-bba42fffede8">
+      <Execution id="70a12365-c8ce-4317-a5e3-d34ece0be93e" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests" name="Validate_ItemWithInvalidQuantity_ShouldFail" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Entities.EntityTests.Equals_WithSameId_ShouldReturnTrue" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="d92733eb-b137-ca76-f0ad-7e09c4284e69">
+      <Execution id="a1197a58-df07-42ef-8908-88a48fc19a99" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="Equals_WithSameId_ShouldReturnTrue" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithRepositoryException_ShouldReturnEmptyList" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="8404cd4b-8370-c5e0-9eb2-c8124240ebb7">
+      <Execution id="2cb0292c-f7e0-4dde-8401-d38f6c9604d8" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests" name="Handle_WithRepositoryException_ShouldReturnEmptyList" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests.DomainException_WithEmptyMessage_ShouldStillCreateException" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="9ead71e9-6596-bd8e-40b5-d8fc8c64d615">
+      <Execution id="ee4c915a-2706-45c1-820d-18ddced285b5" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests" name="DomainException_WithEmptyMessage_ShouldStillCreateException" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoTests.UpdateStatus_ShouldAllowValidTransitions_AndThrowOnInvalid" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="71446488-2da7-694f-eae3-6af7aadae016">
+      <Execution id="31dcf52c-7c8b-4954-915c-9a7b6038b324" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoTests" name="UpdateStatus_ShouldAllowValidTransitions_AndThrowOnInvalid" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoItemTests.Create_WithEmptyProductName_ShouldThrowException" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="ce86aacb-725d-4f8f-61c6-17d4e6632346">
+      <Execution id="c251710d-0fdc-40e3-8163-464ec750100d" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoItemTests" name="Create_WithEmptyProductName_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Entities.EntityTests.SetUpdatedAt_ShouldSetUpdatedAtProperty" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="85248c5c-883d-552d-8003-932ec6c6de36">
+      <Execution id="c9218ab0-5251-41c6-84a0-5597aa61085f" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="SetUpdatedAt_ShouldSetUpdatedAtProperty" />
+    </UnitTest>
+    <UnitTest name="ValueObject: Equals funciona corretamente com null em propriedades" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="e0ebf69e-8d15-06a1-291e-296737c5d144">
+      <Execution id="c5355d79-120a-4e65-a9a7-d25598fefab3" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="Equals_WithNullProperties_ShouldCompareCorrectly" />
+    </UnitTest>
+    <UnitTest name="Deve retornar pedido existente corretamente" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="77fcfa66-a8e5-afb7-278d-c00d96e34128">
+      <Execution id="e9d9d2b9-a720-4f13-b8c6-5e887bc2e671" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests" name="Handle_ExistingPedido_ShouldReturnPedidoWithItems" />
+    </UnitTest>
+    <UnitTest name="Comando com lista de itens vazia deve gerar erro" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="e266d8cc-9c50-ce69-7629-255ee6c65219">
+      <Execution id="b971c6f7-c8ca-4dd7-8637-5945a7f6ddeb" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests" name="Validate_EmptyItems_ShouldFailValidation" />
+    </UnitTest>
+    <UnitTest name="ClienteId nulo é permitido para pedidos anônimos" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="1887bae3-50f7-8668-e83a-5e7f8d82d350">
+      <Execution id="86c0bdd4-17cd-4bf2-89b6-eae80a4987c7" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests" name="Validate_NullClienteId_ShouldPass" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithValidName_ShouldReturnNameObject" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="63135861-0308-4a54-b8cb-7f2a7dfa11e4">
+      <Execution id="43e1bc03-9f58-4435-ab97-1e53e6106b54" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithValidName_ShouldReturnNameObject" />
+    </UnitTest>
+    <UnitTest name="Pedido sem cliente deve retornar com ClienteId nulo" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="86f0519c-2ef1-3d66-1850-563af8c9530a">
+      <Execution id="c12cc080-adf5-4637-8fb1-31f90365a6a9" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests" name="Handle_PedidoWithoutCliente_ShouldReturnPedidoWithNullClienteId" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithNameTooLong_ShouldThrowException" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="d3ae0e70-bf9c-86b7-f532-bf58a3819eda">
+      <Execution id="8f0a062a-fc34-4fbc-b2e0-532bc847907e" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithNameTooLong_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="Deve criar exceção apenas com mensagem personalizada" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="68bdee52-42d9-f905-7af3-cb461eb4fda7">
+      <Execution id="b1a5647b-fb9f-4cdd-84fa-34ed8634eeb5" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Common.Exceptions.NotFoundExceptionTests" name="Constructor_MessageOnly_ShouldSetMessageProperly" />
+    </UnitTest>
+    <UnitTest name="Exceção no repositório deve ser capturada e retornada como erro" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="25cd6c52-fb65-ef57-302b-1e80329792a4">
+      <Execution id="d1eb8cd5-dad7-442b-9788-714951f47c16" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests" name="Handle_RepositoryThrowsException_ShouldReturnErrorResult" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests.DomainException_WithNestedInnerExceptions_ShouldMaintainHierarchy" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="726d7e09-f8d6-8403-f1f6-6c632b4525be">
+      <Execution id="cf309a79-684b-4bb4-9cce-0473bd486c7e" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests" name="DomainException_WithNestedInnerExceptions_ShouldMaintainHierarchy" />
+    </UnitTest>
+    <UnitTest name="ValueObject: Equals retorna false para tipos diferentes" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="2642aadc-c2a9-f0cc-f8e6-80a379c2a45c">
+      <Execution id="469ba8df-7d13-4d3c-92e9-32ee4b38f51b" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="Equals_WithDifferentType_ShouldReturnFalse" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoTests.AddItem_WhenNotPending_ShouldThrowException" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="87ef9a0f-2db6-a2cc-d2b7-f23504cedf11">
+      <Execution id="36918ec2-1a34-46bc-b304-3dfc924c822c" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoTests" name="AddItem_WhenNotPending_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.Exceptions.ClienteDomainExceptionTests.Constructor_WithMessageAndInnerException_ShouldSetBothProperties" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="c3c18ec4-ad28-8f1d-32b8-71ddd885573d">
+      <Execution id="1f1e4dbd-0d09-4856-8e67-84a9df5cea91" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.Exceptions.ClienteDomainExceptionTests" name="Constructor_WithMessageAndInnerException_ShouldSetBothProperties" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithEmptyOrNullOrWhitespace_ShouldThrowException(invalidName: &quot;&quot;)" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="f587871a-4eb0-fdcb-f0e3-c65240c9ed52">
+      <Execution id="6233bcac-5730-41fb-89e5-1a1d05239a40" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithEmptyOrNullOrWhitespace_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithInvalidPageNumber_ShouldUseDefaultPageNumber" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="59cf9b2d-6356-2c09-0422-5bb0ab28c61c">
+      <Execution id="3ad95083-0ad8-4d67-9039-c8758bb5ea71" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests" name="Handle_WithInvalidPageNumber_ShouldUseDefaultPageNumber" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Entities.EntityTests.OperatorNotEquals_WithDifferentEntities_ShouldReturnTrue" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="30c26201-43db-d850-112e-ac924070b773">
+      <Execution id="051044e9-4325-419f-9958-1c97abe63934" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="OperatorNotEquals_WithDifferentEntities_ShouldReturnTrue" />
+    </UnitTest>
+    <UnitTest name="Comando com lista de itens nula deve gerar erro" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="4db0cb56-f5e0-2030-def2-2955e4d2a12c">
+      <Execution id="8e6a34d5-2b3d-4b5f-ba7d-d31168944ceb" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests" name="Validate_NullItems_ShouldFailValidation" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoItemTests.Create_WithZeroQuantity_ShouldThrowException" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="d3e134c8-8bcc-0fd7-3fcd-e10266568efe">
+      <Execution id="140885f4-7001-4941-a582-cd65047ce2ca" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoItemTests" name="Create_WithZeroQuantity_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests.DomainException_MultipleInstances_WithSameMessage_ShouldHaveDifferentReferences" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="fab55944-225d-c6b4-449d-6d6f40088999">
+      <Execution id="dabf02ce-7a64-4ff9-af9c-572e06854477" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests" name="DomainException_MultipleInstances_WithSameMessage_ShouldHaveDifferentReferences" />
+    </UnitTest>
+    <UnitTest name="ValueObject: Equals retorna false para null" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="8ef189bc-672c-a1df-fe22-0fd92e605d30">
+      <Execution id="3aebc2b1-db00-4170-af4a-08c8d51d9f66" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="Equals_WithNull_ShouldReturnFalse" />
+    </UnitTest>
+    <UnitTest name="Verifica comportamento com inner exception nula" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="535359ea-f047-9681-8045-432cbbfaeb10">
+      <Execution id="a76fd379-5c7d-442d-838d-2aed82aa218c" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Common.Exceptions.NotFoundExceptionTests" name="Constructor_WithNullInner_ShouldWorkCorrectly" />
+    </UnitTest>
+    <UnitTest name="ValueObject: Equals retorna false para valores diferentes" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="fe8612e5-30d9-d8ce-f0d9-c6b5046a3612">
+      <Execution id="d139898e-e4e4-4431-b439-07c6a22c92d9" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="Equals_WithDifferentValues_ShouldReturnFalse" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithNameTooShort_ShouldThrowException" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="a451eefb-57f1-434c-4317-39572b912806">
+      <Execution id="3a9ef8e0-8e3d-40ab-953f-795b3fb832b5" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithNameTooShort_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Entities.EntityTests.Equals_WithNull_ShouldReturnFalse" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="9e25376d-f738-1ce4-226e-6a9cc887e730">
+      <Execution id="a1004788-0a5a-43f3-8d5d-fb5a0b532d22" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="Equals_WithNull_ShouldReturnFalse" />
+    </UnitTest>
+    <UnitTest name="Duas instâncias com a mesma mensagem devem ser independentes" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="7f98ae78-9445-983c-5d66-4e1fbaa977cb">
+      <Execution id="358c0d1d-0d0e-4054-84c3-d393638e23a7" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Common.Exceptions.NotFoundExceptionTests" name="MultipleInstances_SameMessage_ShouldNotBeSameObject" />
+    </UnitTest>
+    <UnitTest name="Vários erros podem ser detectados ao mesmo tempo" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="ae2dddde-e554-2bb7-a25c-64a86783ce96">
+      <Execution id="d26ef483-8097-46db-93ee-2b20c302f1d1" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests" name="Validate_MultipleInvalidFields_ShouldDetectAllErrors" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoTests.AddItem_WithNullItem_ShouldThrowException" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="776d41e9-e668-72ba-dbd4-0bd55b3b3733">
+      <Execution id="b85c6d12-54f9-429a-ad38-a1fe1c1fad72" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoTests" name="AddItem_WithNullItem_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithValidRequest_ShouldReturnPedidos" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="a1801f4b-85fc-6a41-7734-d4f8a8e9fe3a">
+      <Execution id="e5d0c00c-d797-430d-bc7c-a34c34ff273a" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests" name="Handle_WithValidRequest_ShouldReturnPedidos" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoTests.Create_WithInvalidClienteId_ShouldThrowException" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="d45cff0e-5a4b-c42b-0890-357265e4e7bb">
+      <Execution id="56dd74c7-ebbe-431f-a232-3803c490de31" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoTests" name="Create_WithInvalidClienteId_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.Exceptions.ClienteDomainExceptionTests.Constructor_WithEmptyMessage_ShouldStillCreateException" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="5cf5db5e-e36e-641f-b5f4-6c5d3259471f">
+      <Execution id="9c747f7f-2535-4636-9a0c-17c782b000b7" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.Exceptions.ClienteDomainExceptionTests" name="Constructor_WithEmptyMessage_ShouldStillCreateException" />
+    </UnitTest>
+    <UnitTest name="Pedido com múltiplos itens retorna todos corretamente" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="fa1ab2c9-986a-8993-827c-6c7ae0604177">
+      <Execution id="c631cfe4-970c-490a-8712-5b982277ccc5" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests" name="Handle_PedidoWithMultipleItems_ShouldReturnAllItems" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoTests.RemoveItem_WhenExistsAndPending_ShouldRemoveAndUpdateTotal" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="9826b18f-846e-0c86-a4e4-6d2f1d9f20af">
+      <Execution id="0f9b4755-0636-4cb3-a031-39c5393fa2b3" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoTests" name="RemoveItem_WhenExistsAndPending_ShouldRemoveAndUpdateTotal" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoTests.AddItem_WhenPending_ShouldAddItemAndUpdateTotal" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="8d1d5137-e079-7f8a-9041-001b74f1ffe5">
+      <Execution id="97c5a792-dab9-411f-a117-08b535d14398" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoTests" name="AddItem_WhenPending_ShouldAddItemAndUpdateTotal" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoItemTests.WithQuantity_WithZeroQuantity_ShouldThrowException" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="da195637-92f6-ce8b-ee2c-72aa44c1f62b">
+      <Execution id="0273e2c7-093d-46be-8755-778d69fbf163" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoItemTests" name="WithQuantity_WithZeroQuantity_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests.DomainException_WithWhitespaceMessage_ShouldTrimOrKeep" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="d6f6b3fa-23b6-8c99-cd51-df93796f19fc">
+      <Execution id="fb6db6ea-3b8b-41d0-af36-b28ea1b1c9a0" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests" name="DomainException_WithWhitespaceMessage_ShouldTrimOrKeep" />
+    </UnitTest>
+    <UnitTest name="Item com ProdutoId vazio deve gerar erro" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="899ae2b6-cb7c-cf88-50ce-ad65d7985763">
+      <Execution id="88979288-c5aa-4071-9738-9dbb0e29a2f0" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests" name="Validate_ItemWithEmptyProdutoId_ShouldFail" />
+    </UnitTest>
+    <UnitTest name="ValueObject: HashCode é consistente para valores iguais" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="b86ca02e-556e-7b1a-6e43-b5aa7f1ac4b1">
+      <Execution id="2c0c9084-69b2-4a13-b0e0-a0503748486d" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="GetHashCode_WithSameValues_ShouldReturnSameHash" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.Create_WithInvalidCharacters_ShouldThrowException(invalidName: &quot;Maria@Silva&quot;)" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="740cd82d-1fe6-f30c-9771-e187f0d96ece">
+      <Execution id="19d0d5bb-b697-44df-938c-d57f1ab5b71a" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="Create_WithInvalidCharacters_ShouldThrowException" />
+    </UnitTest>
+    <UnitTest name="ClienteId vazio deve gerar erro de validação" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="e87883aa-ef03-f3c8-73f9-2263e01cf5d3">
+      <Execution id="fb848c78-1892-446e-af3b-1637d70e8945" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests" name="Validate_EmptyClienteId_ShouldFail" />
+    </UnitTest>
+    <UnitTest name="Deve criar exceção com mensagem e inner exception" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="4d05673f-0565-0ecd-97b5-171a55481a12">
+      <Execution id="5800f17a-4cbe-4554-9857-2cd9175043c6" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Common.Exceptions.NotFoundExceptionTests" name="Constructor_MessageAndInner_ShouldHandleBoth" />
+    </UnitTest>
+    <UnitTest name="Deve inicializar exceção com mensagem e inner exception" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="ab0d71a9-0912-5aa9-1b14-d0292187be22">
+      <Execution id="b6229537-d65c-4593-9a09-74855bc7e3ec" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Common.Exceptions.ValidationExceptionTests" name="Constructor_MessageAndInner_ShouldAssignBoth" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Customers.ValueObjects.NameTests.ToString_ShouldReturnTheNameValue" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="5e85402d-74c3-dbef-8dce-58b9100cc666">
+      <Execution id="f1116311-0467-4c8f-abde-48a5902a40fd" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Customers.ValueObjects.NameTests" name="ToString_ShouldReturnTheNameValue" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests.DomainException_WithMessage_ShouldInitializeCorrectly" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="8170a580-f4dc-5cb9-3ec0-9e1bf51b117d">
+      <Execution id="1aa3bdec-7859-4fe8-978c-ea172cd77bbc" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests" name="DomainException_WithMessage_ShouldInitializeCorrectly" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithStatusFilter_ShouldReturnFilteredPedidos" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="c994bf4b-c103-95be-66bf-d7c57694145c">
+      <Execution id="58a63a51-7527-4c62-9938-274be20286a4" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests" name="Handle_WithStatusFilter_ShouldReturnFilteredPedidos" />
+    </UnitTest>
+    <UnitTest name="Deve inicializar exceção com mensagem customizada" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="a90f072e-b50f-3668-4ac7-8645dc4af94e">
+      <Execution id="cb6e0031-9b43-49cb-a505-44ab80b780a1" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Common.Exceptions.ValidationExceptionTests" name="Constructor_MessageOnly_ShouldAssignMessage" />
+    </UnitTest>
+    <UnitTest name="ClienteTests.CriarCliente_Valido_DeveFuncionar" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="71f9d07e-e6b5-0cda-bd9d-3fc588a6b440">
+      <Execution id="3e2afd7e-2d61-45ca-b780-f49c097d1872" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="ClienteTests" name="CriarCliente_Valido_DeveFuncionar" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithInvalidStatus_ShouldIgnoreStatusFilter" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="7f5d382e-7b57-49d1-8261-586053e3e8f5">
+      <Execution id="7321b4a8-990a-42a7-b49d-f3cacf31ad68" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests" name="Handle_WithInvalidStatus_ShouldIgnoreStatusFilter" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.PedidoTests.CalculateTotalPrice_WithMultipleItems_ShouldBeCorrect" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="a1f3920d-e932-fa67-b501-9c33e998c8f4">
+      <Execution id="ece9fceb-c905-42b1-9f28-6be154165009" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.PedidoTests" name="CalculateTotalPrice_WithMultipleItems_ShouldBeCorrect" />
+    </UnitTest>
+    <UnitTest name="Itens com quantidade inválida devem gerar erro(quantidade: 0)" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="9405aab0-73de-ad14-7038-7cd5ba239e4c">
+      <Execution id="fcdd697b-e5d8-4d46-818a-3a881cceb294" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests" name="Validate_ItemWithInvalidQuantity_ShouldFail" />
+    </UnitTest>
+    <UnitTest name="ValueObject: Equals retorna true para objetos com valores iguais" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="ceb40ccd-5adb-7a09-ec8c-cd272666bfab">
+      <Execution id="a3195a95-3eb9-4316-b856-474a13e3934a" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests" name="Equals_WithSameValues_ShouldReturnTrue" />
+    </UnitTest>
+    <UnitTest name="Pedido.Tests.Domain.Shared.Entities.EntityTests.Constructor_ShouldInitializeIdAndCreatedAt" storage="d:\projetos\techchallenge - fase 4\microservico-pedido\pedido\test\pedido.tests\bin\debug\net9.0\pedido.tests.dll" id="00312bfd-bbb3-29dd-6b3f-6f33a090f53c">
+      <Execution id="953d302c-b8b6-4e4c-8ff5-9ae8f582e132" />
+      <TestMethod codeBase="D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\bin\Debug\net9.0\Pedido.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Pedido.Tests.Domain.Shared.Entities.EntityTests" name="Constructor_ShouldInitializeIdAndCreatedAt" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="d6f6b3fa-23b6-8c99-cd51-df93796f19fc" executionId="fb6db6ea-3b8b-41d0-af36-b28ea1b1c9a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c642a4b1-1859-7429-7958-fba1e7ae51a2" executionId="62388c68-3022-41ef-b3da-1db40163a0cc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3bf28ae0-ee16-367c-6753-02fce166cd35" executionId="846769ad-2553-4e72-8790-053aa5973f05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="106e8726-691b-53c2-c695-85675d19daae" executionId="a0d7acb0-525b-4b3c-b2d5-5558c64be32b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6961fc83-142c-a568-e973-72d83ed1b33f" executionId="0430c3de-df23-4ad8-b9d0-106ba5cbe37d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c994bf4b-c103-95be-66bf-d7c57694145c" executionId="58a63a51-7527-4c62-9938-274be20286a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="35a615d6-5b09-7d8b-7f69-4f7c5b9d01dd" executionId="f4594fdf-d2e5-495b-8255-0e88997a79ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ceb40ccd-5adb-7a09-ec8c-cd272666bfab" executionId="a3195a95-3eb9-4316-b856-474a13e3934a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93c5cc29-0eb1-d457-af4c-47e437ca2f48" executionId="4b38387f-d7a5-4966-86e8-02a42d48ba0c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ead71e9-6596-bd8e-40b5-d8fc8c64d615" executionId="ee4c915a-2706-45c1-820d-18ddced285b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e5e52ed-f3d4-a128-aa82-94525aeda4bc" executionId="b6333d53-9228-456b-8538-62b1f0daca9b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ced99850-72ad-f2ac-08a1-ca01cf995529" executionId="db07126e-a674-46a6-bb47-b805c9445da6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89a74892-8793-dfb8-0d00-26d0b51c14d4" executionId="ecbbe388-2d13-4bfe-9068-2217a76b41fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b86ca02e-556e-7b1a-6e43-b5aa7f1ac4b1" executionId="2c0c9084-69b2-4a13-b0e0-a0503748486d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="41b64ffb-b405-d440-dcf8-6c978b2d1f88" executionId="920e4e36-8f3c-45a1-95b1-096b17715e28" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7efb34f-506f-1c13-a926-80d9f29c5eae" executionId="f8773c2d-24ee-4368-86fd-544ca80c533e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93d50f6f-add2-898b-6dab-2d2c4faf9fd1" executionId="505ec9f0-46a2-4ef2-920d-ae52c459653f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1801f4b-85fc-6a41-7734-d4f8a8e9fe3a" executionId="e5d0c00c-d797-430d-bc7c-a34c34ff273a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77fcfa66-a8e5-afb7-278d-c00d96e34128" executionId="e9d9d2b9-a720-4f13-b8c6-5e887bc2e671" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d05673f-0565-0ecd-97b5-171a55481a12" executionId="5800f17a-4cbe-4554-9857-2cd9175043c6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d21169d-a7eb-35a5-3677-6c58310b9dfa" executionId="c68a5493-3c8b-4ee2-9a9a-3776dd3767d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d45cff0e-5a4b-c42b-0890-357265e4e7bb" executionId="56dd74c7-ebbe-431f-a232-3803c490de31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b966839a-c3fb-7fc0-aab7-083554a4e36a" executionId="610587f3-6e42-46c7-9dbe-7930cfb4a449" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d1b0a21-ed04-bd08-6929-641463c7f14d" executionId="905a7de2-98a3-4e72-b31e-bdfb59615784" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9e25376d-f738-1ce4-226e-6a9cc887e730" executionId="a1004788-0a5a-43f3-8d5d-fb5a0b532d22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a52f98b8-e8ec-ee2d-444c-bba42fffede8" executionId="70a12365-c8ce-4317-a5e3-d34ece0be93e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8db81150-415a-bfa6-821e-e256b9613a60" executionId="54ac2ce0-40e7-4749-997a-7e8b464acdcd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab0d71a9-0912-5aa9-1b14-d0292187be22" executionId="b6229537-d65c-4593-9a09-74855bc7e3ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="86f0519c-2ef1-3d66-1850-563af8c9530a" executionId="c12cc080-adf5-4637-8fb1-31f90365a6a9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8404cd4b-8370-c5e0-9eb2-c8124240ebb7" executionId="2cb0292c-f7e0-4dde-8401-d38f6c9604d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7761c97-2d75-9b4b-c0dd-20f056bb172b" executionId="40760a19-a987-49dd-886d-29c6ecec24f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00312bfd-bbb3-29dd-6b3f-6f33a090f53c" executionId="953d302c-b8b6-4e4c-8ff5-9ae8f582e132" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc76700d-a4c2-8054-cf92-5ca2ced0bc31" executionId="89efac14-ef54-4143-bbf1-4cb686073e14" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b0ab2a17-0b34-6bdd-59f0-9954a0d07eb4" executionId="bd35ff9c-c7e9-4b07-963d-db04e86253a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="71446488-2da7-694f-eae3-6af7aadae016" executionId="31dcf52c-7c8b-4954-915c-9a7b6038b324" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4a77122-0ec5-b171-3569-28817b23aead" executionId="dc473c64-8ebe-4ca6-b16f-e1819e43304f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1f3920d-e932-fa67-b501-9c33e998c8f4" executionId="ece9fceb-c905-42b1-9f28-6be154165009" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="740cd82d-1fe6-f30c-9771-e187f0d96ece" executionId="19d0d5bb-b697-44df-938c-d57f1ab5b71a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3e134c8-8bcc-0fd7-3fcd-e10266568efe" executionId="140885f4-7001-4941-a582-cd65047ce2ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="776d41e9-e668-72ba-dbd4-0bd55b3b3733" executionId="b85c6d12-54f9-429a-ad38-a1fe1c1fad72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25cd6c52-fb65-ef57-302b-1e80329792a4" executionId="d1eb8cd5-dad7-442b-9788-714951f47c16" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe8612e5-30d9-d8ce-f0d9-c6b5046a3612" executionId="d139898e-e4e4-4431-b439-07c6a22c92d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4db0cb56-f5e0-2030-def2-2955e4d2a12c" executionId="8e6a34d5-2b3d-4b5f-ba7d-d31168944ceb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="84dcf0cd-47e2-601b-41c8-a0774f20ce09" executionId="c9b586ac-ef2d-4453-90e5-de470a66d0af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59cf9b2d-6356-2c09-0422-5bb0ab28c61c" executionId="3ad95083-0ad8-4d67-9039-c8758bb5ea71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4b56462-39f6-0477-2cc6-273d4bbc860f" executionId="fab667c4-d34a-418d-ad1c-5ccdd348576e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9865e98d-45b5-19f9-218b-f8b37efd3b7e" executionId="ca76184d-ef26-4238-9b32-2323784f09a3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="45921083-d6d0-95b9-dc48-53be127b5fd3" executionId="66c40cdc-b360-48fd-bf96-bf76d67d4283" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d78237b2-bd56-4752-a360-06144247a502" executionId="d6947ebc-d0cf-4078-8eeb-f84fb4664dae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9826b18f-846e-0c86-a4e4-6d2f1d9f20af" executionId="0f9b4755-0636-4cb3-a031-39c5393fa2b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f587871a-4eb0-fdcb-f0e3-c65240c9ed52" executionId="6233bcac-5730-41fb-89e5-1a1d05239a40" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e162fc7-2b92-b410-96b0-1ee017c97c71" executionId="264e5730-d03d-4afe-a54f-fcffa12b4ad5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d1d5137-e079-7f8a-9041-001b74f1ffe5" executionId="97c5a792-dab9-411f-a117-08b535d14398" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a05a912-462b-1c72-1de9-b147e7ac0de8" executionId="1c75082e-1c77-45c3-b425-472f37b83015" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="342d2c03-150c-dbc2-2aaa-649c707124c2" executionId="cd6bb32d-b5a8-4c30-96d3-98b21e923f0a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="097b924b-d760-4d2a-968c-744fb13ba8cd" executionId="945843e4-bfa5-4d68-bf46-5392b8ee09d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f298f152-f5ee-35c1-51a7-f491deb003d4" executionId="fce956df-6cc9-4e8f-8dc7-be31794b85f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="076b43f9-d32f-87d3-96b6-a01ee3d95a44" executionId="da5477b0-2946-426c-b932-a496d5641c52" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ef189bc-672c-a1df-fe22-0fd92e605d30" executionId="3aebc2b1-db00-4170-af4a-08c8d51d9f66" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3c18ec4-ad28-8f1d-32b8-71ddd885573d" executionId="1f1e4dbd-0d09-4856-8e67-84a9df5cea91" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e266d8cc-9c50-ce69-7629-255ee6c65219" executionId="b971c6f7-c8ca-4dd7-8637-5945a7f6ddeb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="899ae2b6-cb7c-cf88-50ce-ad65d7985763" executionId="88979288-c5aa-4071-9738-9dbb0e29a2f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cbe3267a-76e8-72e6-8f68-d6def64847b8" executionId="1ac25a35-9ebf-4ce0-9207-c1c2645dbd29" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3a7d6490-fde3-fd1b-5b5e-ddff6152d4c5" executionId="82717310-e673-47e7-a41c-9470c11e76f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="603f2caa-8379-53a4-bfae-51d92b8d2714" executionId="4fd219ef-e332-4216-9ff0-5067972fd8cf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9552af16-0109-4bb3-70a9-7e276e1c9d3d" executionId="60d8c21e-847d-41fd-8ba1-ce216c2cf434" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="71f9d07e-e6b5-0cda-bd9d-3fc588a6b440" executionId="3e2afd7e-2d61-45ca-b780-f49c097d1872" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9405aab0-73de-ad14-7038-7cd5ba239e4c" executionId="fcdd697b-e5d8-4d46-818a-3a881cceb294" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a90f072e-b50f-3668-4ac7-8645dc4af94e" executionId="cb6e0031-9b43-49cb-a505-44ab80b780a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1887bae3-50f7-8668-e83a-5e7f8d82d350" executionId="86c0bdd4-17cd-4bf2-89b6-eae80a4987c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d2420b1-0128-c652-a09e-3e71115a1dcd" executionId="41c25f1d-20d8-4f57-970b-df5ce1551432" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b9adf1c-77a7-d874-507a-3dfffa3e708c" executionId="08a6fd7c-5af4-4f01-8f3d-7b51b5437b77" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ce86aacb-725d-4f8f-61c6-17d4e6632346" executionId="c251710d-0fdc-40e3-8163-464ec750100d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87ef9a0f-2db6-a2cc-d2b7-f23504cedf11" executionId="36918ec2-1a34-46bc-b304-3dfc924c822c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3ae0e70-bf9c-86b7-f532-bf58a3819eda" executionId="8f0a062a-fc34-4fbc-b2e0-532bc847907e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="877d398c-8a33-7399-7d53-2a91cb86543a" executionId="84475777-80df-49c1-8f60-3631ff1f8f57" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0918451a-0f00-3500-fe34-9547d0b759f2" executionId="1a1b81b6-b7e7-4506-b4ff-bc0924fb5373" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da195637-92f6-ce8b-ee2c-72aa44c1f62b" executionId="0273e2c7-093d-46be-8755-778d69fbf163" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="68bdee52-42d9-f905-7af3-cb461eb4fda7" executionId="b1a5647b-fb9f-4cdd-84fa-34ed8634eeb5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d92733eb-b137-ca76-f0ad-7e09c4284e69" executionId="a1197a58-df07-42ef-8908-88a48fc19a99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae2dddde-e554-2bb7-a25c-64a86783ce96" executionId="d26ef483-8097-46db-93ee-2b20c302f1d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f98ae78-9445-983c-5d66-4e1fbaa977cb" executionId="358c0d1d-0d0e-4054-84c3-d393638e23a7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="535359ea-f047-9681-8045-432cbbfaeb10" executionId="a76fd379-5c7d-442d-838d-2aed82aa218c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a66b417d-54f3-0bdd-f904-a9e3deee984d" executionId="64353df4-5fa4-4bf6-a7fc-8ae91aef0dc5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="16977277-adc9-dc69-a066-cebe64c5fd70" executionId="a26ca055-5e9b-4da6-9b4f-6fa361e1ff33" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa1ab2c9-986a-8993-827c-6c7ae0604177" executionId="c631cfe4-970c-490a-8712-5b982277ccc5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="192ee191-206e-71e2-3d7a-6cb19e3c1a4b" executionId="655a4a2a-2689-453b-8af7-7370766082b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5cf5db5e-e36e-641f-b5f4-6c5d3259471f" executionId="9c747f7f-2535-4636-9a0c-17c782b000b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eec151a6-74ec-8d4e-c27f-55c57273d438" executionId="cc0c1fda-6a28-4d41-8dd8-22ceb1946588" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="30c26201-43db-d850-112e-ac924070b773" executionId="051044e9-4325-419f-9958-1c97abe63934" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42d78a6a-5b23-26b6-44b5-3d18cb82e39d" executionId="f41531f1-bf9a-477c-a513-40ccfbaf5f7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e87883aa-ef03-f3c8-73f9-2263e01cf5d3" executionId="fb848c78-1892-446e-af3b-1637d70e8945" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8170a580-f4dc-5cb9-3ec0-9e1bf51b117d" executionId="1aa3bdec-7859-4fe8-978c-ea172cd77bbc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2642aadc-c2a9-f0cc-f8e6-80a379c2a45c" executionId="469ba8df-7d13-4d3c-92e9-32ee4b38f51b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e41551d0-d2c1-f568-5dd1-9a34f12024ec" executionId="e7920014-af65-4c27-9805-409b306a9968" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="846c8519-7768-5cf4-9eb0-8beb80d7f080" executionId="07a0335d-c0d5-4c35-97c6-489488ccfe2e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="726d7e09-f8d6-8403-f1f6-6c632b4525be" executionId="cf309a79-684b-4bb4-9cce-0473bd486c7e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a451eefb-57f1-434c-4317-39572b912806" executionId="3a9ef8e0-8e3d-40ab-953f-795b3fb832b5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cca14f7-6d9e-1de2-7c18-153de7a0f9bc" executionId="f0b51b28-1569-4548-ba1b-0ae374920c4e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14e0a303-1983-9903-7c89-c998f80ab6ff" executionId="66850d5a-fd7b-4c85-ae2f-5ad73090f2df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fab55944-225d-c6b4-449d-6d6f40088999" executionId="dabf02ce-7a64-4ff9-af9c-572e06854477" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e85402d-74c3-dbef-8dce-58b9100cc666" executionId="f1116311-0467-4c8f-abde-48a5902a40fd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85248c5c-883d-552d-8003-932ec6c6de36" executionId="c9218ab0-5251-41c6-84a0-5597aa61085f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7f5d382e-7b57-49d1-8261-586053e3e8f5" executionId="7321b4a8-990a-42a7-b49d-f3cacf31ad68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da703b66-50d6-367a-f4c9-deaaa2e9e80b" executionId="c910e7bd-a1bc-46a8-b1ab-b217b8a152f5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0ebf69e-8d15-06a1-291e-296737c5d144" executionId="c5355d79-120a-4e65-a9a7-d25598fefab3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="63135861-0308-4a54-b8cb-7f2a7dfa11e4" executionId="43e1bc03-9f58-4435-ab97-1e53e6106b54" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ff579c98-913a-009d-ccb6-5115e6c885e6" executionId="39297ec6-d2e3-46b3-928f-758d766e08ae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados que não estão em uma lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os resultados carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="108" executed="108" passed="101" failed="7" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 9.0.11)&#xD;
+[xUnit.net 00:00:00.05]   Discovering: Pedido.Tests&#xD;
+[xUnit.net 00:00:00.08]   Discovered:  Pedido.Tests&#xD;
+[xUnit.net 00:00:00.09]   Starting:    Pedido.Tests&#xD;
+     Warning:&#xD;
+     The component "Fluent Assertions" is governed by the rules defined in the Xceed License Agreement and&#xD;
+     the Xceed Fluent Assertions Community License. You may use Fluent Assertions free of charge for&#xD;
+     non-commercial use only. An active subscription is required to use Fluent Assertions for commercial use.&#xD;
+     Please contact Xceed Sales mailto:sales@xceed.com to acquire a subscription at a very low cost.&#xD;
+     A paid commercial license supports the development and continued increasing support of&#xD;
+     Fluent Assertions users under both commercial and community licenses. Help us&#xD;
+     keep Fluent Assertions at the forefront of unit testing.&#xD;
+     For more information, visit https://xceed.com/products/unit-testing/fluent-assertions/&#xD;
+[xUnit.net 00:00:00.18]       Expected result.Success to be True, but found False.&#xD;
+[xUnit.net 00:00:00.18]       Stack Trace:&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Primitives.BooleanAssertions`1.BeTrue(String because, Object[] becauseArgs)&#xD;
+[xUnit.net 00:00:00.18]         D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Queries\GetPedidoByIdQueryHandlerTests.cs(114,0): at FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests.Handle_PedidoWithoutCliente_ShouldReturnPedidoWithNullClienteId()&#xD;
+[xUnit.net 00:00:00.18]         --- End of stack trace from previous location ---&#xD;
+[xUnit.net 00:00:00.18]       Expected result.Pedidos to contain 2 item(s), but found 0: {empty}.&#xD;
+[xUnit.net 00:00:00.18]       Stack Trace:&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Collections.GenericCollectionAssertions`3.HaveCount(Int32 expected, String because, Object[] becauseArgs)&#xD;
+[xUnit.net 00:00:00.18]         D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Queries\GetPedidosQueryHandlerTests.cs(56,0): at Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithValidRequest_ShouldReturnPedidos()&#xD;
+[xUnit.net 00:00:00.18]         --- End of stack trace from previous location ---&#xD;
+[xUnit.net 00:00:00.18]       Expected result.Success to be True, but found False.&#xD;
+[xUnit.net 00:00:00.18]       Stack Trace:&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Primitives.BooleanAssertions`1.BeTrue(String because, Object[] becauseArgs)&#xD;
+[xUnit.net 00:00:00.18]         D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Queries\GetPedidoByIdQueryHandlerTests.cs(143,0): at FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests.Handle_PedidoWithMultipleItems_ShouldReturnAllItems()&#xD;
+[xUnit.net 00:00:00.18]         --- End of stack trace from previous location ---&#xD;
+[xUnit.net 00:00:00.18]       Expected result.Success to be True, but found False.&#xD;
+[xUnit.net 00:00:00.18]       Stack Trace:&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Primitives.BooleanAssertions`1.BeTrue(String because, Object[] becauseArgs)&#xD;
+[xUnit.net 00:00:00.18]         D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Queries\GetPedidoByIdQueryHandlerTests.cs(49,0): at FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests.Handle_ExistingPedido_ShouldReturnPedidoWithItems()&#xD;
+[xUnit.net 00:00:00.18]         --- End of stack trace from previous location ---&#xD;
+[xUnit.net 00:00:00.18]       Expected result.Pedidos to contain 1 item(s), but found 0: {empty}.&#xD;
+[xUnit.net 00:00:00.18]       Stack Trace:&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)&#xD;
+[xUnit.net 00:00:00.18]            at FluentAssertions.Collections.GenericCollectionAssertions`3.HaveCount(Int32 expected, String because, Object[] becauseArgs)&#xD;
+[xUnit.net 00:00:00.18]         D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Queries\GetPedidosQueryHandlerTests.cs(125,0): at Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithStatusFilter_ShouldReturnFilteredPedidos()&#xD;
+[xUnit.net 00:00:00.18]         --- End of stack trace from previous location ---&#xD;
+[xUnit.net 00:00:00.19]       Expected result.Success to be True, but found False.&#xD;
+[xUnit.net 00:00:00.19]       Stack Trace:&#xD;
+[xUnit.net 00:00:00.19]            at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)&#xD;
+[xUnit.net 00:00:00.19]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)&#xD;
+[xUnit.net 00:00:00.19]            at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)&#xD;
+[xUnit.net 00:00:00.19]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+[xUnit.net 00:00:00.19]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+[xUnit.net 00:00:00.19]            at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)&#xD;
+[xUnit.net 00:00:00.19]            at FluentAssertions.Primitives.BooleanAssertions`1.BeTrue(String because, Object[] becauseArgs)&#xD;
+[xUnit.net 00:00:00.19]         D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Queries\GetPedidoByIdQueryHandlerTests.cs(191,0): at FastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests.Handle_PedidoWithRepeatedItems_ShouldReturnItemsIndividually()&#xD;
+[xUnit.net 00:00:00.19]         --- End of stack trace from previous location ---&#xD;
+[xUnit.net 00:00:00.19]       Expected result.Pedidos to contain 1 item(s), but found 0: {empty}.&#xD;
+[xUnit.net 00:00:00.19]       Stack Trace:&#xD;
+[xUnit.net 00:00:00.19]            at FluentAssertions.Execution.LateBoundTestFramework.Throw(String message)&#xD;
+[xUnit.net 00:00:00.19]            at FluentAssertions.Execution.DefaultAssertionStrategy.HandleFailure(String message)&#xD;
+[xUnit.net 00:00:00.19]            at FluentAssertions.Execution.AssertionScope.AddPreFormattedFailure(String formattedFailureMessage)&#xD;
+[xUnit.net 00:00:00.19]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+[xUnit.net 00:00:00.19]            at FluentAssertions.Execution.AssertionChain.FailWith(Func`1 getFailureReason)&#xD;
+[xUnit.net 00:00:00.19]            at FluentAssertions.Execution.AssertionChain.FailWith(String message, Object[] args)&#xD;
+[xUnit.net 00:00:00.19]            at FluentAssertions.Collections.GenericCollectionAssertions`3.HaveCount(Int32 expected, String because, Object[] becauseArgs)&#xD;
+[xUnit.net 00:00:00.19]         D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Queries\GetPedidosQueryHandlerTests.cs(92,0): at Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithClienteIdFilter_ShouldReturnFilteredPedidos()&#xD;
+[xUnit.net 00:00:00.19]         --- End of stack trace from previous location ---&#xD;
+[xUnit.net 00:00:00.45]   Finished:    Pedido.Tests&#xD;
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="AMND" outcome="Error" timestamp="2026-01-09T14:56:49.0990652-03:00">
+        <Text>[xUnit.net 00:00:00.18]     Pedido sem cliente deve retornar com ClienteId nulo [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="AMND" outcome="Error" timestamp="2026-01-09T14:56:49.1011139-03:00">
+        <Text>[xUnit.net 00:00:00.18]     Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithValidRequest_ShouldReturnPedidos [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="AMND" outcome="Error" timestamp="2026-01-09T14:56:49.1024223-03:00">
+        <Text>[xUnit.net 00:00:00.18]     Pedido com múltiplos itens retorna todos corretamente [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="AMND" outcome="Error" timestamp="2026-01-09T14:56:49.1034101-03:00">
+        <Text>[xUnit.net 00:00:00.18]     Deve retornar pedido existente corretamente [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="AMND" outcome="Error" timestamp="2026-01-09T14:56:49.1038006-03:00">
+        <Text>[xUnit.net 00:00:00.18]     Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithStatusFilter_ShouldReturnFilteredPedidos [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="AMND" outcome="Error" timestamp="2026-01-09T14:56:49.1130101-03:00">
+        <Text>[xUnit.net 00:00:00.19]     Pedido com itens repetidos deve retornar todas as entradas separadas [FAIL]</Text>
+      </RunInfo>
+      <RunInfo computerName="AMND" outcome="Error" timestamp="2026-01-09T14:56:49.1132173-03:00">
+        <Text>[xUnit.net 00:00:00.19]     Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests.Handle_WithClienteIdFilter_ShouldReturnFilteredPedidos [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+    <CollectorDataEntries>
+      <Collector agentName="AMND" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="AMND\coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

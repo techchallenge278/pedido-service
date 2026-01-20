@@ -1,0 +1,1 @@
+ŠRtD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Infrastructure\Pedido.Infrastructure.csproj¢net8.0òCSharp12

@@ -24,5 +24,15 @@ namespace Pedido.Domain.Custumer.Entities
             Nome = nome ?? throw new ArgumentNullException(nameof(nome));
         }
 
+        private Cliente(Name name)
+        {
+            Id = Guid.NewGuid();
+            Nome = name;
+        }
+        public static Cliente Create(Name name)
+        {
+            return new Cliente(name);
+        }
+
     }
 }

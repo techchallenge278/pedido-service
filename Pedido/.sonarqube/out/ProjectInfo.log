@@ -1,0 +1,28 @@
+Product projects
+---------------------------------------
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Domain\Pedido.Domain.csproj
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Application\Pedido.Application.csproj
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Infrastructure\Pedido.Infrastructure.csproj
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Api\Pedido.Api.csproj
+
+
+Test projects
+---------------------------------------
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Pedido.Tests.csproj
+
+
+Invalid projects
+---------------------------------------
+{none}
+
+
+Skipped projects
+---------------------------------------
+{none}
+
+
+Excluded projects
+---------------------------------------
+{none}
+
+

@@ -9,7 +9,7 @@
         /// <summary>
         /// ID único do pedido
         /// </summary>
-        public Guid OrderId { get; set; }
+        public Guid PedidoId { get; set; }
 
         /// <summary>
         /// Status atual do pedido

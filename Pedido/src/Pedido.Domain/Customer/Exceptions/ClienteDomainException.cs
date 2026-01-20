@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Pedido.Domain.Custumer.Exceptions
 {
-    internal class ClienteDomainException : DomainException
+    public class ClienteDomainException : DomainException
     {
         /// <summary>
         /// Inicializa uma nova instância da classe <see cref="CustomerDomainException"/>.

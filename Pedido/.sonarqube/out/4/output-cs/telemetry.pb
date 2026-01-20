@@ -1,0 +1,1 @@
+yRcD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Pedido.Tests.csproj¢net9.0òCSharp13

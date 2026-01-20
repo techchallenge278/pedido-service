@@ -64,6 +64,7 @@ D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Api\bin
 D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Api\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Api\bin\Debug\net8.0\System.Security.Permissions.dll
 D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Api\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Api\bin\Debug\net8.0\xunit.abstractions.dll
 D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
 D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
 D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
@@ -157,4 +158,3 @@ D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Api\obj
 D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Api\obj\Debug\net8.0\Pedido.Api.pdb
 D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Api\obj\Debug\net8.0\Pedido.Api.genruntimeconfig.cache
 D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Api\obj\Debug\net8.0\ref\Pedido.Api.dll
-D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\src\Pedido.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

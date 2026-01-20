@@ -11,6 +11,9 @@ namespace Pedido.Application.Queries
     {
         public bool Success { get; set; }
         public string? Error { get; set; }
-        public PedidoDto? Order { get; set; }
+        public PedidoDto? Pedido { get; set; }
     }
+
+
+
 }

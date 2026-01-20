@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FIA9ZlT93RE=",
+  "dgSpecHash": "UCn8FUbMs1w=",
   "success": true,
   "projectFilePath": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Domain\\Pedido.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\amand\\.nuget\\packages\\xunit.abstractions\\2.0.3\\xunit.abstractions.2.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

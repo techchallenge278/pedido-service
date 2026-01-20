@@ -1,0 +1,162 @@
+˙
+ÑD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Infrastructure\Repositories\PedidoRepositoryTests.csPedido.Testsc
+>Pedido.Tests.Infrastructure.Repositories.PedidoRepositoryTests!AddPedido_ShouldPersistInDatabasea
+>Pedido.Tests.Infrastructure.Repositories.PedidoRepositoryTestsGetByIdAsync_ShouldReturnPedidos
+>Pedido.Tests.Infrastructure.Repositories.PedidoRepositoryTests1GetByIdWithItemsAsync_ShouldReturnPedidoWithItemsf
+>Pedido.Tests.Infrastructure.Repositories.PedidoRepositoryTests$GetAllAsync_ShouldReturnPagedPedidosi
+>Pedido.Tests.Infrastructure.Repositories.PedidoRepositoryTests'GetByClienteIdAsync_ShouldFilterPedidosg
+>Pedido.Tests.Infrastructure.Repositories.PedidoRepositoryTests%GetByStatusAsync_ShouldFilterByStatusj
+>Pedido.Tests.Infrastructure.Repositories.PedidoRepositoryTests(CustomerHasPedidosAsync_ShouldReturnTrue®
+zD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Infrastructure\Data\RepositoryBaseTests.csPedido.TestsW
+4Pedido.Tests.Infrastructure.Data.RepositoryBaseTestsCreateAsync_ShouldPersistEntityW
+4Pedido.Tests.Infrastructure.Data.RepositoryBaseTestsGetByIdAsync_ShouldReturnEntitym
+4Pedido.Tests.Infrastructure.Data.RepositoryBaseTests5GetByIdAsync_WithCancellationToken_ShouldReturnEntity]
+4Pedido.Tests.Infrastructure.Data.RepositoryBaseTests%GetAllAsync_ShouldReturnPaginatedDataV
+4Pedido.Tests.Infrastructure.Data.RepositoryBaseTestsUpdateAsync_ShouldUpdateEntityV
+4Pedido.Tests.Infrastructure.Data.RepositoryBaseTestsDeleteAsync_ShouldRemoveEntityl
+4Pedido.Tests.Infrastructure.Data.RepositoryBaseTests4DeleteAsync_WithCancellationToken_ShouldRemoveEntityü	
+~D:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Domain\Shared\ValueObjects\ValueObjectTests.csPedido.Testsb
+8Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests&Equals_WithSameValues_ShouldReturnTrueh
+8Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests,Equals_WithDifferentValues_ShouldReturnFalse]
+8Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests!Equals_WithNull_ShouldReturnFalsef
+8Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests*Equals_WithDifferentType_ShouldReturnFalsek
+8Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests/GetHashCode_WithSameValues_ShouldReturnSameHashu
+8Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests9GetHashCode_WithDifferentValues_ShouldReturnDifferentHash[
+8Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTestsOperators_ShouldBehaveCorrectlyf
+8Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests*GetHashCode_WithNullValue_ShouldHandleNulll
+8Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests0Equals_WithNullProperties_ShouldCompareCorrectlyc
+8Pedido.Tests.Domain.Shared.ValueObjects.ValueObjectTests'ComplexComparison_ShouldBehaveCorrectly‘	
+ÄD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Domain\Shared\Exceptions\DomainExceptionTests.csPedido.Testss
+:Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests5DomainException_WithMessage_ShouldInitializeCorrectly}
+:Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests?DomainException_WithMessageAndInnerException_ShouldContainInnery
+:Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests;DomainException_WithEmptyMessage_ShouldStillCreateExceptiont
+:Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests6DomainException_WithWhitespaceMessage_ShouldTrimOrKeepn
+:Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests0DomainException_InnerExceptionNull_ShouldNotFailç
+:Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTestsODomainException_MultipleInstances_WithSameMessage_ShouldHaveDifferentReferencesn
+:Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests0DomainException_ThrowAndCatch_ShouldPreserveType
+:Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTestsADomainException_WithNestedInnerExceptions_ShouldMaintainHierarchyk
+:Pedido.Tests.Domain.Shared.Exceptions.DomainExceptionTests-DomainException_ToString_ShouldIncludeMessageï	
+uD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Domain\Shared\Entities\EntityTests.csPedido.Tests]
+/Pedido.Tests.Domain.Shared.Entities.EntityTests*Constructor_ShouldInitializeIdAndCreatedAtZ
+/Pedido.Tests.Domain.Shared.Entities.EntityTests'SetUpdatedAt_ShouldSetUpdatedAtProperty`
+/Pedido.Tests.Domain.Shared.Entities.EntityTests-GetBrasilDateTime_ShouldReturnCurrentDateTimeU
+/Pedido.Tests.Domain.Shared.Entities.EntityTests"Equals_WithSameId_ShouldReturnTrue[
+/Pedido.Tests.Domain.Shared.Entities.EntityTests(Equals_WithDifferentId_ShouldReturnFalseT
+/Pedido.Tests.Domain.Shared.Entities.EntityTests!Equals_WithNull_ShouldReturnFalse]
+/Pedido.Tests.Domain.Shared.Entities.EntityTests*Equals_WithDifferentType_ShouldReturnFalseX
+/Pedido.Tests.Domain.Shared.Entities.EntityTests%GetHashCode_ShouldReturnSameForSameId]
+/Pedido.Tests.Domain.Shared.Entities.EntityTests*OperatorEquals_WithSameId_ShouldReturnTrueb
+/Pedido.Tests.Domain.Shared.Entities.EntityTests/OperatorEquals_WithNullAndNull_ShouldReturnTruek
+/Pedido.Tests.Domain.Shared.Entities.EntityTests8OperatorNotEquals_WithDifferentEntities_ShouldReturnTrue†
+âD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Domain\Customer\Exceptions\ClienteDomainExceptionTests.csPedido.Testsx
+DPedido.Tests.Domain.Customers.Exceptions.ClienteDomainExceptionTests0Constructor_WithMessage_ShouldSetMessagePropertyà
+DPedido.Tests.Domain.Customers.Exceptions.ClienteDomainExceptionTests@Constructor_WithMessageAndInnerException_ShouldSetBothProperties
+DPedido.Tests.Domain.Customers.Exceptions.ClienteDomainExceptionTests7Constructor_WithEmptyMessage_ShouldStillCreateException›
+iD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Domain\PedidoItemTests.csPedido.TestsQ
+#Pedido.Tests.Domain.PedidoItemTests*Create_WithValidData_ShouldCreateOrderItemU
+#Pedido.Tests.Domain.PedidoItemTests.Create_WithEmptyProductId_ShouldThrowExceptionW
+#Pedido.Tests.Domain.PedidoItemTests0Create_WithEmptyProductName_ShouldThrowExceptionT
+#Pedido.Tests.Domain.PedidoItemTests-Create_WithZeroUnitPrice_ShouldThrowExceptionS
+#Pedido.Tests.Domain.PedidoItemTests,Create_WithZeroQuantity_ShouldThrowExceptionY
+#Pedido.Tests.Domain.PedidoItemTests2WithQuantity_WithValidQuantity_ShouldReturnNewItemY
+#Pedido.Tests.Domain.PedidoItemTests2WithQuantity_WithZeroQuantity_ShouldThrowExceptionñ
+yD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Domain\Customer\ValueObjects\NameTests.csPedido.Testsc
+4Pedido.Tests.Domain.Customers.ValueObjects.NameTests+Create_WithValidName_ShouldReturnNameObjectq
+4Pedido.Tests.Domain.Customers.ValueObjects.NameTests9Create_WithNameContainingAccents_ShouldCapitalizeProperlym
+4Pedido.Tests.Domain.Customers.ValueObjects.NameTests5Create_WithLowerCaseName_ShouldCapitalizeFirstLetterso
+4Pedido.Tests.Domain.Customers.ValueObjects.NameTests7Create_WithEmptyOrNullOrWhitespace_ShouldThrowExceptiond
+4Pedido.Tests.Domain.Customers.ValueObjects.NameTests,Create_WithNameTooShort_ShouldThrowExceptionc
+4Pedido.Tests.Domain.Customers.ValueObjects.NameTests+Create_WithNameTooLong_ShouldThrowExceptioni
+4Pedido.Tests.Domain.Customers.ValueObjects.NameTests1Create_WithInvalidCharacters_ShouldThrowExceptionp
+4Pedido.Tests.Domain.Customers.ValueObjects.NameTests8Create_WithNameContainingHyphen_ShouldNormalizeCorrectlyt
+4Pedido.Tests.Domain.Customers.ValueObjects.NameTests<Create_WithNameContainingApostrophe_ShouldNormalizeCorrectlyY
+4Pedido.Tests.Domain.Customers.ValueObjects.NameTests!ToString_ShouldReturnTheNameValueb
+4Pedido.Tests.Domain.Customers.ValueObjects.NameTests*ImplicitConversion_ShouldReturnStringValuew
+4Pedido.Tests.Domain.Customers.ValueObjects.NameTests?Create_WithNameContainingMultipleSpaces_ShouldTrimAndCapitalize}
+4Pedido.Tests.Domain.Customers.ValueObjects.NameTestsECreate_WithNameContainingMixedCasesAndSpaces_ShouldNormalizeCorrectly˚
+xD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Domain\Customer\Entities\ClienteTests.csPedido.Tests1
+ClienteTests!CriarCliente_Valido_DeveFuncionar>
+ClienteTests.CriarCliente_ComNomeInvalido_DeveLancarExcecao∂
+ÇD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Queries\GetPedidosQueryHandlerTests.csPedido.Testsk
+<Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests+Handle_WithValidRequest_ShouldReturnPedidosv
+<Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests6Handle_WithClienteIdFilter_ShouldReturnFilteredPedidoss
+<Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests3Handle_WithStatusFilter_ShouldReturnFilteredPedidosw
+<Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests7Handle_WithInvalidPageNumber_ShouldUseDefaultPageNumbers
+<Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests3Handle_WithInvalidPageSize_ShouldUseDefaultPageSizep
+<Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests0Handle_WithPageSizeGreaterThan100_ShouldCapAt100q
+<Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests1Handle_WithInvalidStatus_ShouldIgnoreStatusFiltert
+<Pedido.Tests.Application.Queries.GetPedidosQueryHandlerTests4Handle_WithRepositoryException_ShouldReturnEmptyList®
+ÖD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Queries\GetPedidoByIdQueryHandlerTests.csPedido.Tests}
+HFastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests1Handle_ExistingPedido_ShouldReturnPedidoWithItemsx
+HFastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests,Handle_NonExistentPedido_ShouldReturnFailureÑ
+HFastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests8Handle_RepositoryThrowsException_ShouldReturnErrorResultã
+HFastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests?Handle_PedidoWithoutCliente_ShouldReturnPedidoWithNullClienteId
+HFastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests3Handle_PedidoWithMultipleItems_ShouldReturnAllItemsv
+HFastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests*Handle_NonExistentItem_ShouldReturnFailureà
+HFastFood.Pedido.Tests.Application.Queries.GetPedidoByIdQueryHandlerTests<Handle_PedidoWithRepeatedItems_ShouldReturnItemsIndividuallyœ
+xD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\DTOs\PedidoStatusDtoTests.csPedido.Testsg
+2Pedido.Tests.Application.DTOs.PedidoStatusDtoTests1PedidoStatusDto_ShouldInitializeWithDefaultValues\
+2Pedido.Tests.Application.DTOs.PedidoStatusDtoTests&PedidoStatusDto_ShouldSetAllPropertiesÚ
+âD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Common\Exceptions\ValidationExceptionTests.csPedido.Testsr
+CPedido.Tests.Application.Common.Exceptions.ValidationExceptionTests+Constructor_MessageOnly_ShouldAssignMessages
+CPedido.Tests.Application.Common.Exceptions.ValidationExceptionTests,Constructor_MessageAndInner_ShouldAssignBoths
+CPedido.Tests.Application.Common.Exceptions.ValidationExceptionTests,Constructor_NullInner_ShouldHandleGracefullyx
+CPedido.Tests.Application.Common.Exceptions.ValidationExceptionTests1MultipleInstances_SameMessage_ShouldBeIndependent
+áD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Common\Exceptions\NotFoundExceptionTests.csPedido.Testsu
+APedido.Tests.Application.Common.Exceptions.NotFoundExceptionTests0Constructor_MessageOnly_ShouldSetMessageProperlyq
+APedido.Tests.Application.Common.Exceptions.NotFoundExceptionTests,Constructor_MessageAndInner_ShouldHandleBothr
+APedido.Tests.Application.Common.Exceptions.NotFoundExceptionTests-Constructor_WithNullInner_ShouldWorkCorrectlyx
+APedido.Tests.Application.Common.Exceptions.NotFoundExceptionTests3MultipleInstances_SameMessage_ShouldNotBeSameObjectï
+çD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Commands\UpdatePedidoStatusCommandHandlerTests.csPedido.Testsu
+GPedido.Tests.Application.Commands.UpdatePedidoStatusCommandHandlerTests*Handle_ShouldUpdateStatus_WhenPedidoExistsÈ
+
+eD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Domain\PedidoTests.csPedido.TestsN
+Pedido.Tests.Domain.PedidoTests+PrivateConstructor_ShouldInitializeDefaultsN
+Pedido.Tests.Domain.PedidoTests+Create_WithValidData_ShouldInstantiateOrderY
+Pedido.Tests.Domain.PedidoTests6Create_WithoutClient_ShouldAllowOrderWithNullClienteIdJ
+Pedido.Tests.Domain.PedidoTests'Create_WithNoItems_ShouldThrowExceptionS
+Pedido.Tests.Domain.PedidoTests0Create_WithInvalidClienteId_ShouldThrowExceptionR
+Pedido.Tests.Domain.PedidoTests/AddItem_WhenPending_ShouldAddItemAndUpdateTotalN
+Pedido.Tests.Domain.PedidoTests+AddItem_WhenNotPending_ShouldThrowExceptionL
+Pedido.Tests.Domain.PedidoTests)AddItem_WithNullItem_ShouldThrowException]
+Pedido.Tests.Domain.PedidoTests:RemoveItem_WhenExistsAndPending_ShouldRemoveAndUpdateTotalP
+Pedido.Tests.Domain.PedidoTests-RemoveItem_WhenDoesNotExist_ShouldReturnFalseQ
+Pedido.Tests.Domain.PedidoTests.RemoveItem_WhenNotPending_ShouldThrowExceptionS
+Pedido.Tests.Domain.PedidoTests0SetQrCode_And_SetPreferenceId_ShouldAssignValuesY
+Pedido.Tests.Domain.PedidoTests6SetQrCodeOrPreferenceId_WhenEmpty_ShouldThrowException]
+Pedido.Tests.Domain.PedidoTests:UpdateStatus_ShouldAllowValidTransitions_AndThrowOnInvalidQ
+Pedido.Tests.Domain.PedidoTests.SetStatusDireto_ShouldUpdateStatusWithoutRules¶
+âD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Commands\CreatePedidoCommandValidatorTests.csPedido.Testsp
+CPedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests)Validate_ValidCommand_ShouldNotHaveErrorso
+CPedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests(Validate_EmptyItems_ShouldFailValidationn
+CPedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests'Validate_NullItems_ShouldFailValidationq
+CPedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests*Validate_ItemWithEmptyProdutoId_ShouldFailr
+CPedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests+Validate_ItemWithInvalidQuantity_ShouldFaili
+CPedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests"Validate_EmptyClienteId_ShouldFailh
+CPedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests!Validate_NullClienteId_ShouldPass{
+CPedido.Tests.Application.Commands.CreatePedidoCommandValidatorTests4Validate_MultipleInvalidFields_ShouldDetectAllErrorsÔ
+áD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Application\Commands\CreatePedidoCommandHandlerTests.csPedido.Testsp
+APedido.Tests.Application.Commands.CreatePedidoCommandHandlerTests+Handle_ShouldThrowException_WhenItemsIsNullq
+APedido.Tests.Application.Commands.CreatePedidoCommandHandlerTests,Handle_ShouldThrowException_WhenItemsIsEmpty~
+APedido.Tests.Application.Commands.CreatePedidoCommandHandlerTests9Handle_ShouldThrowException_WhenUnitPriceIsZeroOrNegativez
+APedido.Tests.Application.Commands.CreatePedidoCommandHandlerTests5Handle_ShouldThrowException_WhenQuantIsZeroOrNegativeÖ
+APedido.Tests.Application.Commands.CreatePedidoCommandHandlerTests@Handle_ShouldThrowException_WhenGroupedUnitPriceIsZeroOrNegativeÅ
+APedido.Tests.Application.Commands.CreatePedidoCommandHandlerTests<Handle_ShouldThrowException_WhenGroupedQuantIsZeroOrNegativeÄ
+APedido.Tests.Application.Commands.CreatePedidoCommandHandlerTests;Handle_ShouldUseProdutoAnonimo_WhenProdutoNomeIsNullOrEmptys
+APedido.Tests.Application.Commands.CreatePedidoCommandHandlerTests.Handle_ShouldConsolidateItemsWithSameProdutoIdv
+APedido.Tests.Application.Commands.CreatePedidoCommandHandlerTests1Handle_ShouldReturnValidResult_WhenCommandIsValidÑ
+APedido.Tests.Application.Commands.CreatePedidoCommandHandlerTests?Handle_ShouldReturnNullClienteName_WhenClienteNomeIsNullOrEmptyf
+APedido.Tests.Application.Commands.CreatePedidoCommandHandlerTests!Handle_ShouldMapAllItemsCorrectlyà
+APedido.Tests.Application.Commands.CreatePedidoCommandHandlerTestsCHandle_ShouldConsolidateItemsWithSameProdutoIdAndKeepFirstUnitPriceå
+ÇD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Api\Middlewares\ExceptionHandlerMiddlewareTests.csPedido.Tests{
+<Pedido.Tests.Api.Middlewares.ExceptionHandlerMiddlewareTests;InvokeAsync_DeveRetornar400_QuandoInvalidOperationExceptionv
+<Pedido.Tests.Api.Middlewares.ExceptionHandlerMiddlewareTests6InvokeAsync_DeveRetornar404_QuandoKeyNotFoundExceptionÅ
+<Pedido.Tests.Api.Middlewares.ExceptionHandlerMiddlewareTestsAInvokeAsync_DeveRetornar500_E_LogarErro_QuandoExceptionNaoTratada≠
+yD:\Projetos\techChallenge - Fase 4\MicroServico-Pedido\Pedido\test\Pedido.Tests\Api\Controllers\PedidosControllerTests.csPedido.Testsd
+3Pedido.Tests.Api.Controllers.PedidosControllerTests-Create_ShouldReturnCreated_WhenRequestIsValidL
+3Pedido.Tests.Api.Controllers.PedidosControllerTestsGetAll_ShouldReturnOkj
+3Pedido.Tests.Api.Controllers.PedidosControllerTests3GetById_ShouldReturnNotFound_WhenPedidoDoesNotExist^
+3Pedido.Tests.Api.Controllers.PedidosControllerTests'GetById_ShouldReturnOk_WhenPedidoExistsR
+3Pedido.Tests.Api.Controllers.PedidosControllerTestsUpdateStatus_ShouldReturnOkl
+3Pedido.Tests.Api.Controllers.PedidosControllerTests5GetStatus_ShouldReturnNotFound_WhenPedidoDoesNotExist`
+3Pedido.Tests.Api.Controllers.PedidosControllerTests)GetStatus_ShouldReturnOk_WhenPedidoExists
