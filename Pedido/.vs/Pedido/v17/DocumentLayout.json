@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B86C29D1-2B8B-6E24-AB75-E00AE109209A}|test\\Pedido.Tests\\Pedido.Tests.csproj|d:\\projetos\\techchallenge - fase 4\\microservico-pedido\\pedido\\test\\pedido.tests\\application\\queries\\getpedidobyidqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B86C29D1-2B8B-6E24-AB75-E00AE109209A}|test\\Pedido.Tests\\Pedido.Tests.csproj|solutionrelative:test\\pedido.tests\\application\\queries\\getpedidobyidqueryhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B86C29D1-2B8B-6E24-AB75-E00AE109209A}|test\\Pedido.Tests\\Pedido.Tests.csproj|d:\\projetos\\techchallenge - fase 4\\microservico-pedido\\pedido\\test\\pedido.tests\\domain\\pedidotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B86C29D1-2B8B-6E24-AB75-E00AE109209A}|test\\Pedido.Tests\\Pedido.Tests.csproj|solutionrelative:test\\pedido.tests\\domain\\pedidotests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GetPedidoByIdQueryHandlerTests.cs",
+              "DocumentMoniker": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\test\\Pedido.Tests\\Application\\Queries\\GetPedidoByIdQueryHandlerTests.cs",
+              "RelativeDocumentMoniker": "test\\Pedido.Tests\\Application\\Queries\\GetPedidoByIdQueryHandlerTests.cs",
+              "ToolTip": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\test\\Pedido.Tests\\Application\\Queries\\GetPedidoByIdQueryHandlerTests.cs",
+              "RelativeToolTip": "test\\Pedido.Tests\\Application\\Queries\\GetPedidoByIdQueryHandlerTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T05:20:38.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PedidoTests.cs",
               "DocumentMoniker": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\test\\Pedido.Tests\\Domain\\PedidoTests.cs",
               "RelativeDocumentMoniker": "test\\Pedido.Tests\\Domain\\PedidoTests.cs",
               "ToolTip": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\test\\Pedido.Tests\\Domain\\PedidoTests.cs",
               "RelativeToolTip": "test\\Pedido.Tests\\Domain\\PedidoTests.cs",
-              "ViewState": "AgIAAMwAAAAAAAAAAAAqwOMAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAqwNMAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-19T04:30:39.865Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CreatePedidoCommandHandlerTests.cs",
               "DocumentMoniker": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\test\\Pedido.Tests\\Application\\Commands\\CreatePedidoCommandHandlerTests.cs",
               "RelativeDocumentMoniker": "test\\Pedido.Tests\\Application\\Commands\\CreatePedidoCommandHandlerTests.cs",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "test\\Pedido.Tests\\Application\\Commands\\CreatePedidoCommandHandlerTests.cs",
               "ViewState": "AgIAADcBAAAAAAAAAAAqwFoBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T04:08:25.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T04:08:25.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UpdatePedidoStatusCommandHandlerTests.cs",
               "DocumentMoniker": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\test\\Pedido.Tests\\Application\\Commands\\UpdatePedidoStatusCommandHandlerTests.cs",
               "RelativeDocumentMoniker": "test\\Pedido.Tests\\Application\\Commands\\UpdatePedidoStatusCommandHandlerTests.cs",
@@ -64,12 +80,11 @@
               "RelativeToolTip": "test\\Pedido.Tests\\Application\\Commands\\UpdatePedidoStatusCommandHandlerTests.cs",
               "ViewState": "AgIAAEUAAAAAAAAAAAAqwGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T04:55:11.817Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T04:55:11.817Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UpdatePedidoStatusCommandHandler.cs",
               "DocumentMoniker": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\src\\Pedido.Application\\Commands\\UpdatePedidoStatusCommandHandler.cs",
               "RelativeDocumentMoniker": "src\\Pedido.Application\\Commands\\UpdatePedidoStatusCommandHandler.cs",
@@ -77,8 +92,7 @@
               "RelativeToolTip": "src\\Pedido.Application\\Commands\\UpdatePedidoStatusCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T04:55:09.596Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T04:55:09.596Z"
             }
           ]
         }
