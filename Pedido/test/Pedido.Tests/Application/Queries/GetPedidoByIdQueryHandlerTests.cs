@@ -50,7 +50,7 @@ public class GetPedidoByIdQueryHandlerTests
         _repositoryMock.Verify(r => r.GetByIdWithItemsAsync(pedidoId), Times.Once);
     }
 
-    [Fact(DisplayName = "Pedido inexistente deve retornar erro de não encontrado")]
+    [Fact(DisplayName = "Pedido inexistente deve retornar erro de nao encontrado")]
     public async Task Handle_NonExistentPedido_ShouldReturnFailure()
     {
         var pedidoId = Guid.NewGuid();
@@ -70,7 +70,7 @@ public class GetPedidoByIdQueryHandlerTests
         normalized.Should().Contain("nao encontrado");
     }
 
-    [Fact(DisplayName = "Exceção no repositório deve ser capturada e retornada como erro")]
+    [Fact(DisplayName = "Exceçao no repositório deve ser capturada e retornada como erro")]
     public async Task Handle_RepositoryThrowsException_ShouldReturnErrorResult()
     {
         var pedidoId = Guid.NewGuid();
@@ -136,7 +136,7 @@ public class GetPedidoByIdQueryHandlerTests
         result.Pedido.Items[1].ProdutoNome.Should().Be("Batata Frita");
     }
 
-    [Fact(DisplayName = "Se algum item do pedido não existir, o handler deve retornar erro")]
+    [Fact(DisplayName = "Se algum item do pedido nao existir, o handler deve retornar erro")]
     public async Task Handle_NonExistentItem_ShouldReturnFailure()
     {
         var pedidoId = Guid.NewGuid();
