@@ -34,15 +34,15 @@ jobs:
 
       # Restaurar dependências
       - name: Restore dependencies
-        run: dotnet restore MicroServico-Pedido/Pedido/Pedido.sln
+        run: dotnet restore Pedido/Pedido.sln
 
       # Build da aplicação
       - name: Build
-        run: dotnet build MicroServico-Pedido/Pedido/Pedido.sln --no-restore --configuration Release
+        run: dotnet build Pedido/Pedido.sln --no-restore --configuration Release
 
       # Testes e cobertura
       - name: Run Tests
-        run: dotnet test MicroServico-Pedido/Pedido/Pedido.sln --no-build --configuration Release --collect:"XPlat Code Coverage"
+        run: dotnet test Pedido/Pedido.sln --no-build --configuration Release --collect:"XPlat Code Coverage"
 
       # (Opcional) SonarQube
       # - name: SonarQube Scan
@@ -61,7 +61,7 @@ jobs:
 
       # Build Docker da aplicação
       - name: Build Docker Image
-        run: docker build -t microservicopedido:latest ./MicroServico-Pedido/Pedido
+        run: docker build -t microservicopedido:latest ./Pedido
 
       # Deploy local direto com Docker
       - name: Run Docker Container
