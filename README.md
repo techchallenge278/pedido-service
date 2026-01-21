@@ -8,9 +8,9 @@ O microsserviço **Pedido** é responsável por gerenciar todo o fluxo de pedido
 - Integração com os microsserviços de Pagamento e Produção
 
 ## Tecnologias
-- .NET 7
+- .NET 8
 - C#
-- SQL Server (ou outro banco SQL escolhido)
+- SQL Server
 - GitHub Actions para CI/CD
 - Docker para containerização
 
