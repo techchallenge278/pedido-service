@@ -61,12 +61,12 @@ jobs:
 
       # Build Docker da aplicação
       - name: Build Docker Image
-        run: docker build -t microservicopedido:latest ./Pedido
+        run: docker build -t microservico-pedido:latest ./Pedido
 
       # Deploy local direto com Docker
       - name: Run Docker Container
         run: |
           # Para container antigo se existir
-          docker rm -f microservicopedido || true
-          # Roda o container na porta 5000 (ajuste se quiser)
-          docker run -d -p 5000:5000 --name microservicopedido microservicopedido:latest
+          docker rm -f microservico-pedido || true
+          # Roda o container na porta 5000 
+          docker run -d -p 5000:5000 --name microservico-pedido microservico-pedido:latest
