@@ -40,7 +40,7 @@
               "RelativeDocumentMoniker": "test\\Pedido.Tests\\Application\\Queries\\GetPedidoByIdQueryHandlerTests.cs",
               "ToolTip": "D:\\Projetos\\techChallenge - Fase 4\\MicroServico-Pedido\\Pedido\\test\\Pedido.Tests\\Application\\Queries\\GetPedidoByIdQueryHandlerTests.cs",
               "RelativeToolTip": "test\\Pedido.Tests\\Application\\Queries\\GetPedidoByIdQueryHandlerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIoAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-21T05:20:38.719Z",
               "EditorCaption": ""
@@ -55,8 +55,7 @@
               "RelativeToolTip": "test\\Pedido.Tests\\Domain\\PedidoTests.cs",
               "ViewState": "AgIAAMwAAAAAAAAAAAAqwNMAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-19T04:30:39.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-19T04:30:39.865Z"
             },
             {
               "$type": "Document",
