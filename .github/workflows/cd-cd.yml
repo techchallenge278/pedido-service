@@ -1,0 +1,63 @@
+name: CI/CD - Pedido
+
+# CI roda no Pull Request, CD no merge na main
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+jobs:
+  ci:
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    name: Build, Test & Coverage
+    steps:
+      # Pegar o código
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Configurar .NET
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.0.x'
+
+      # Restaurar dependências
+      - name: Restore dependencies
+        run: dotnet restore
+
+      # Build da aplicação
+      - name: Build
+        run: dotnet build --no-restore --configuration Release
+
+      # Testes e cobertura
+      - name: Run Tests
+        run: dotnet test --no-build --configuration Release --collect:"XPlat Code Coverage"
+
+      # (Opcional) SonarQube
+      # - name: SonarQube Scan
+      #   uses: SonarSource/sonarcloud-github-action@v1
+      #   with:
+      #     args: >
+      #       -Dsonar.login=${{ secrets.SONAR_TOKEN }}
+
+  cd:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    name: Deploy Local
+    steps:
+      # Pegar código
+      - uses: actions/checkout@v3
+
+      # Build Docker da aplicação
+      - name: Build Docker Image
+        run: docker build -t microservicopedido:latest .
+
+      # Deploy local direto com Docker
+      - name: Run Docker Container
+        run: |
+          # Para container antigo se existir
+          docker rm -f microservicopedido || true
+          # Roda o container na porta 5000 (ajuste se quiser)
+          docker run -d -p 5000:5000 --name microservicopedido microservicopedido:latest
