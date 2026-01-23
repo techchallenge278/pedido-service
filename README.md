@@ -8,9 +8,9 @@ O microsserviço **Pedido** é responsável por gerenciar todo o fluxo de pedido
 - Integração com os microsserviços de Pagamento e Produção
 
 ## Observações
-CI/CD configurado via GitHub Actions
-Branch main protegida, PR obrigatório
-Testes unitários com cobertura ≥80%
+CI/CD configurado via GitHub Actions  
+Branch main protegida, PR obrigatório  
+Testes unitários com cobertura ≥80%  
 <img width="1183" height="189" alt="image" src="https://github.com/user-attachments/assets/99ab573e-6655-4e0f-bb31-e09f638d349a" />
 
 ## Tecnologias
